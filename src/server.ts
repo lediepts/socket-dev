@@ -81,7 +81,7 @@ app.get("/*", async (_req, res) => {
 });
 
 function run() {
-  const port = process.env.TS_NODE_DEV !== "true" ? 8080 : 488;
+  const port = process.env.TS_NODE_DEV !== "true" ? 8080 : 500;
   server.listen(port, () => {
     logger.info(`サーバの起動が完了しました。`);
     logger.debug(`URL: http://localhost:${port}/`);

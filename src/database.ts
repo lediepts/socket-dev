@@ -15,12 +15,12 @@ const product = {
 };
 const develop = {
   PORT: 488,
-  DB_HOST: process.env.DB_HOST || "localhost",
-  DB_NAME: process.env.DB_NAME || "caa",
-  DB_USER_NAME: process.env.DB_USER_NAME || "root",
+  DB_HOST: process.env.DB_HOST || "131.186.34.238",
+  DB_NAME: process.env.DB_NAME || "caa-dev",
+  DB_USER_NAME: process.env.DB_USER_NAME || "dev",
   DB_PASSWORD:
     process.env.DB_PASSWORD === undefined
-      ? "4s-mmsi4"
+      ? "password"
       : process.env.DB_PASSWORD,
 };
 const ENV =
