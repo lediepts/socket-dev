@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/2270.71e88878.chunk.js","mappings":"oLAEe,SAASA,IACvB,OAAOC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,kBACb,C","sources":["pages/Auth/UpdatePassword.tsx"],"sourcesContent":["import React from 'react'\n\nexport default function UpdatePassword() {\n\treturn <div>UpdatePassword</div>\n}\n"],"names":["UpdatePassword","_jsx","children"],"sourceRoot":""}

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcaa_client=self.webpackChunkcaa_client||[]).push([[4432],{94432:function(n,c,e){e.r(c),e.d(c,{default:function(){return u}});e(72791);var t=e(80184);function u(){return(0,t.jsx)("div",{children:"CMS"})}}}]);
+//# sourceMappingURL=4432.d0426bc5.chunk.js.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/4432.d0426bc5.chunk.js","mappings":"oLAEe,SAASA,IACtB,OACEC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,OAET,C","sources":["pages/CMS/index.tsx"],"sourcesContent":["import React from 'react'\n\nexport default function CMS() {\n  return (\n    <div>CMS</div>\n  )\n}\n"],"names":["CMS","_jsx","children"],"sourceRoot":""}

@@ -1,0 +1,116 @@
+[error] 11:27:11 | DB Sync error
+[info] 11:27:26 | サーバの起動が完了しました。
+[info] 11:27:29 | サーバの起動が完了しました。
+[http] 11:27:33 | 匿名 GET /auth/login/msal body:{}
+[http] 11:27:33 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 11:53:35 | [admin-system]Le Diep GET /api/group body:{}
+[info] 11:53:35 | [admin-system]Le Diep | GET / | get all success
+[http] 11:54:07 | [admin-system]Le Diep GET /auth body:{}
+[http] 11:54:07 | [admin-system]Le Diep GET /api/config body:{}
+[info] 11:54:07 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 11:55:33 | サーバの起動が完了しました。
+[http] 11:55:37 | [admin-system]Le Diep GET /auth body:{}
+[http] 11:55:37 | [admin-system]Le Diep GET /api/config body:{}
+[info] 11:55:37 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 11:56:26 | サーバの起動が完了しました。
+[info] 13:08:34 | サーバの起動が完了しました。
+[http] 13:08:38 | 匿名 GET /auth/login/msal body:{}
+[http] 13:08:38 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[info] 13:09:13 | サーバの起動が完了しました。
+[http] 13:09:15 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:09:15 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:09:15 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 13:10:37 | サーバの起動が完了しました。
+[info] 13:10:54 | サーバの起動が完了しました。
+[info] 13:11:27 | サーバの起動が完了しました。
+[http] 13:11:29 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:11:29 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:11:29 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 13:11:42 | サーバの起動が完了しました。
+[info] 13:11:43 | サーバの起動が完了しました。
+[http] 13:11:46 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:11:46 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:11:46 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 13:13:10 | サーバの起動が完了しました。
+[info] 13:13:38 | サーバの起動が完了しました。
+[info] 13:13:42 | サーバの起動が完了しました。
+[info] 13:14:27 | サーバの起動が完了しました。
+[info] 13:14:30 | サーバの起動が完了しました。
+[info] 13:14:41 | サーバの起動が完了しました。
+[info] 13:14:43 | サーバの起動が完了しました。
+[http] 13:14:47 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:14:47 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:14:47 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 13:20:36 | サーバの起動が完了しました。
+[info] 13:23:43 | サーバの起動が完了しました。
+[info] 13:23:45 | サーバの起動が完了しました。
+[info] 13:25:53 | サーバの起動が完了しました。
+[info] 13:29:11 | サーバの起動が完了しました。
+[info] 13:29:20 | サーバの起動が完了しました。
+[http] 13:29:24 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:29:24 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:29:24 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:29:31 | [admin-system]Le Diep GET /api/group body:{}
+[info] 13:29:31 | [admin-system]Le Diep | GET / | get all success
+[info] 13:31:08 | サーバの起動が完了しました。
+[info] 13:33:15 | サーバの起動が完了しました。
+[info] 13:35:56 | サーバの起動が完了しました。
+[info] 13:38:02 | サーバの起動が完了しました。
+[info] 13:38:35 | サーバの起動が完了しました。
+[info] 13:38:39 | サーバの起動が完了しました。
+[http] 13:41:03 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:41:03 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:41:03 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:41:05 | [admin-system]Le Diep GET /api/group body:{}
+[info] 13:41:05 | [admin-system]Le Diep | GET / | get all success
+[info] 13:41:20 | サーバの起動が完了しました。
+[http] 13:41:24 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:41:24 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:41:24 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:41:25 | [admin-system]Le Diep GET /api/group body:{}
+[info] 13:41:25 | [admin-system]Le Diep | GET / | get all success
+[info] 13:46:52 | サーバの起動が完了しました。
+[info] 13:47:50 | サーバの起動が完了しました。
+[info] 13:47:53 | サーバの起動が完了しました。
+[info] 13:48:04 | サーバの起動が完了しました。
+[info] 13:51:53 | サーバの起動が完了しました。
+[http] 13:57:35 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:57:35 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:57:38 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:57:38 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:57:38 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:57:40 | [admin-system]Le Diep GET /api/group body:{}
+[info] 13:57:40 | [admin-system]Le Diep | GET / | get all success
+[http] 13:57:44 | [admin-system]Le Diep POST /api/group/ body:{"name":"deqweqw","permission":"0000000","description":""}
+[info] 13:57:44 | [admin-system]Le Diep | POST / | groupID: 2を作成が成功しました
+[http] 13:57:48 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:57:48 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:57:48 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:57:50 | [admin-system]Le Diep GET /api/group body:{}
+[info] 13:57:50 | [admin-system]Le Diep | GET / | get all success
+[info] 14:16:55 | サーバの起動が完了しました。
+[http] 14:19:15 | [admin-system]Le Diep GET /auth body:{}
+[http] 14:19:17 | [admin-system]Le Diep GET /auth body:{}
+[http] 14:19:17 | [admin-system]Le Diep GET /api/config body:{}
+[info] 14:19:17 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 14:19:26 | [admin-system]Le Diep GET /api/group body:{}
+[info] 14:19:26 | [admin-system]Le Diep | GET / | get all success
+[http] 14:19:42 | [admin-system]Le Diep POST /api/group/ body:{"name":"dqweqw","permission":"0000000","description":""}
+[info] 14:19:42 | [admin-system]Le Diep | POST / | groupID: 3を作成が成功しました
+[http] 14:19:42 | [admin-system]Le Diep GET /api/group/3 body:{}
+[info] 14:19:42 | [admin-system]Le Diep | GET /3 | get one success
+[http] 14:19:55 | [admin-system]Le Diep POST /api/group/ body:{"name":"qweqwe","permission":"0000000","description":""}
+[info] 14:19:55 | [admin-system]Le Diep | POST / | groupID: 4を作成が成功しました
+[http] 14:19:55 | [admin-system]Le Diep GET /api/group/4 body:{}
+[info] 14:19:55 | [admin-system]Le Diep | GET /4 | get one success
+[http] 14:23:01 | [admin-system]Le Diep GET /api/config body:{}
+[info] 14:23:01 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 14:26:01 | [admin-system]Le Diep GET /api/config body:{}
+[info] 14:26:01 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 14:26:28 | [admin-system]Le Diep GET /api/config body:{}
+[info] 14:26:28 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 14:26:54 | [admin-system]Le Diep GET /api/config body:{}
+[info] 14:26:54 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 14:29:05 | [admin-system]Le Diep GET /auth body:{}
+[http] 14:29:05 | [admin-system]Le Diep GET /api/config body:{}
+[info] 14:29:05 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました

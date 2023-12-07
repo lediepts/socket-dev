@@ -1,0 +1,253 @@
+[error] 11:02:27 | DB Sync error
+[info] 11:02:27 | サーバの起動が完了しました。
+[http] 11:02:35 | 匿名 GET /api/config body:{}
+[http] 11:02:35 | 匿名 GET /auth body:{}
+[info] 11:02:35 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 11:02:35 | 匿名 GET /api/domain body:{}
+[info] 11:02:35 | 匿名 | GET / | get all success
+[http] 11:02:43 | 匿名 GET /auth/login/msal body:{}
+[http] 11:02:43 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 11:02:43 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 11:02:43 | [システム管理者]Le Diep | GET / | get all success
+[error] 11:03:40 | DB Sync error
+[info] 11:03:40 | サーバの起動が完了しました。
+[error] 11:03:45 | DB Sync error
+[info] 11:03:45 | サーバの起動が完了しました。
+[error] 11:03:56 | DB Sync error
+[info] 11:03:57 | サーバの起動が完了しました。
+[info] 11:04:29 | サーバの起動が完了しました。
+[info] 11:04:43 | サーバの起動が完了しました。
+[http] 11:04:49 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 11:04:49 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 11:04:49 | [システム管理者]Le Diep | GET / | get all success
+[http] 11:04:49 | [システム管理者]Le Diep GET /auth body:{}
+[info] 11:04:49 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 11:04:49 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 11:04:49 | [システム管理者]Le Diep | GET / | get all success
+[http] 11:04:51 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[http] 11:04:51 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[http] 11:04:51 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 11:04:51 | [システム管理者]Le Diep | GET / | get all success
+[info] 11:04:51 | [システム管理者]Le Diep | GET / | get all success
+[info] 11:04:51 | [システム管理者]Le Diep | GET / | get all success
+[http] 11:04:55 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 11:04:55 | [システム管理者]Le Diep | GET / | get all success
+[http] 11:05:00 | [システム管理者]Le Diep POST /api/form/ body:{"name":"dasd","webId":1}
+[info] 11:05:00 | [システム管理者]Le Diep | POST / | formID: 1を作成が成功しました
+[http] 11:05:00 | [システム管理者]Le Diep GET /api/form/1 body:{}
+[info] 11:05:00 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 13:14:12 | 匿名 POST /auth/logout body:{}
+[http] 13:14:16 | 匿名 GET /api/cms/web body:{}
+[http] 13:14:17 | 匿名 GET /api/domain body:{}
+[http] 13:14:17 | 匿名 GET /api/config body:{}
+[info] 13:14:17 | 匿名 | GET / | get all success
+[info] 13:14:17 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 13:14:17 | 匿名 GET /auth body:{}
+[http] 13:14:20 | 匿名 GET /api/domain body:{}
+[http] 13:14:20 | 匿名 GET /api/config body:{}
+[http] 13:14:20 | 匿名 GET /auth body:{}
+[info] 13:14:20 | 匿名 | GET / | get all success
+[info] 13:14:20 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 13:14:21 | 匿名 GET /auth/login/msal body:{}
+[http] 13:14:21 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 13:14:21 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 13:14:21 | [システム管理者]Le Diep | GET / | get all success
+[http] 13:15:13 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 13:15:13 | [システム管理者]Le Diep | GET / | get all success
+[http] 13:24:08 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 13:24:08 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 13:24:08 | [システム管理者]Le Diep GET /auth body:{}
+[info] 13:24:08 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 13:24:08 | [システム管理者]Le Diep | GET / | get all success
+[http] 13:24:08 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 13:24:08 | [システム管理者]Le Diep | GET / | get all success
+[http] 13:24:09 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 13:24:09 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:09:44 | 匿名 GET /api/domain body:{}
+[http] 15:09:44 | 匿名 GET /api/config body:{}
+[http] 15:09:44 | 匿名 GET /auth body:{}
+[info] 15:09:44 | 匿名 | GET / | システム設定環境変数を取得できました
+[info] 15:09:44 | 匿名 | GET / | get all success
+[http] 15:09:46 | 匿名 GET /auth/login/msal body:{}
+[http] 15:09:46 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 15:09:46 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 15:09:46 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:09:48 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[http] 15:09:48 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 15:09:48 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:09:48 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 15:09:48 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:09:48 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:09:49 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 15:09:49 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:21:55 | サーバの起動が完了しました。
+[info] 15:25:20 | サーバの起動が完了しました。
+[http] 15:25:29 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 15:25:29 | [システム管理者]Le Diep GET /auth body:{}
+[http] 15:25:29 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 15:25:29 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:25:29 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 15:25:29 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 15:25:29 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:25:29 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 15:25:29 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:25:37 | サーバの起動が完了しました。
+[http] 15:25:37 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 15:25:38 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:25:38 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 15:25:38 | [システム管理者]Le Diep GET /auth body:{}
+[info] 15:25:38 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 15:25:38 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 15:25:38 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:25:38 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 15:25:38 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:28:21 | サーバの起動が完了しました。
+[http] 15:28:24 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 15:28:24 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 15:28:24 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:28:24 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 15:28:24 | [システム管理者]Le Diep GET /auth body:{}
+[http] 15:28:24 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 15:28:24 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:28:25 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 15:28:25 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:28:50 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 15:28:50 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 15:28:50 | [システム管理者]Le Diep GET /auth body:{}
+[info] 15:28:50 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 15:28:50 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:28:50 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 15:28:50 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:28:50 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 15:28:50 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:29:03 | サーバの起動が完了しました。
+[http] 15:29:05 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 15:29:05 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 15:29:05 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:29:05 | [システム管理者]Le Diep GET /auth body:{}
+[info] 15:29:05 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 15:29:05 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 15:29:05 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:29:05 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 15:29:05 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:30:40 | サーバの起動が完了しました。
+[http] 15:32:54 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 15:32:54 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:55:10 | [システム管理者]Le Diep PUT /api/form/1 body:{"content":"[\"<div data-type=\\\"label\\\" data-display=\\\"dasdasd\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\" class=\\\"\\\"><p>dasdasd</p></div>\",\"<div data-type=\\\"email\\\" data-display=\\\"dasdas\\\" data-name=\\\"dasd\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\" class=\\\"\\\"><label style=\\\"display:flex;align-items:center;\\\" for=\\\"dasd\\\">dasdas</label> <input type=\\\"email\\\" style=\\\"width:100%;padding:4px 10px;border-radius: 4px;border: 1px solid currentColor;line-height: 32px;\\\" id=\\\"dasd\\\" name=\\\"dasd\\\"></div>\",\"<div data-name=\\\"action\\\" class=\\\"\\\" style=\\\"position: relative; display: flex; justify-content: space-around; align-items: center; margin: 2rem auto; max-width: 1024px;\\\"><button type=\\\"reset\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#475569;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">リセット</button><button type=\\\"submit\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#1D4ED8;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">確認画面へ</button><style>[data-name=\\\"action\\\"] button:hover{ box-shadow: 0 2px 10px #0005; }</style><script>\\n\\t\\t\\tfunction countText(event) {\\n\\t\\t\\t\\tconst text = event.target.value;\\n\\t\\t\\t\\tconst mes = document.querySelector(\\\"#\\\" + event.target.id + \\\" ~ p>span\\\")\\n\\t\\t\\t\\tmes.innerText = event.target.maxLength - text.length\\n\\t\\t\\t}\\n\\t\\t\\t</script></div>\"]"}
+[info] 15:55:10 | [システム管理者]Le Diep | PUT /1 | formID: 1を編集が成功しました
+[http] 15:55:10 | [システム管理者]Le Diep GET /api/form/1 body:{}
+[info] 15:55:10 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 15:55:10 | [システム管理者]Le Diep GET /api/form/1 body:{}
+[info] 15:55:10 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 15:59:08 | [システム管理者]Le Diep PUT /api/form/1 body:{"content":"[\"<div data-type=\\\"label\\\" data-display=\\\"dasdasd\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\" class=\\\"\\\"><p>dasdasd</p></div>\",\"<div data-type=\\\"email\\\" data-display=\\\"dasdas\\\" data-name=\\\"dasd\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\" class=\\\"\\\"><label style=\\\"display:flex;align-items:center;\\\" for=\\\"dasd\\\">dasdas</label> <input type=\\\"email\\\" style=\\\"width:100%;padding:4px 10px;border-radius: 4px;border: 1px solid currentColor;line-height: 32px;\\\" id=\\\"dasd\\\" name=\\\"dasd\\\"></div>\",\"<div data-name=\\\"action\\\" class=\\\"\\\" style=\\\"position: relative; display: flex; justify-content: space-around; align-items: center; margin: 2rem auto; max-width: 1024px;\\\"><button type=\\\"reset\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#475569;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">リセット</button><button type=\\\"submit\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#1D4ED8;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">確認画面へ</button><style>[data-name=\\\"action\\\"] button:hover{ box-shadow: 0 2px 10px #0005; }</style><script>\\n\\t\\t\\tfunction countText(event) {\\n\\t\\t\\t\\tconst text = event.target.value;\\n\\t\\t\\t\\tconst mes = document.querySelector(\\\"#\\\" + event.target.id + \\\" ~ p>span\\\")\\n\\t\\t\\t\\tmes.innerText = event.target.maxLength - text.length\\n\\t\\t\\t}\\n\\t\\t\\t</script></div>\"]"}
+[info] 15:59:08 | [システム管理者]Le Diep | PUT /1 | formID: 1を編集が成功しました
+[http] 15:59:08 | [システム管理者]Le Diep GET /api/form/1 body:{}
+[info] 15:59:08 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 15:59:08 | [システム管理者]Le Diep GET /api/form/1 body:{}
+[info] 15:59:08 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 16:26:43 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 16:26:43 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 16:26:43 | [システム管理者]Le Diep GET /auth body:{}
+[info] 16:26:43 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 16:26:43 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:26:43 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:26:43 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:26:44 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 16:26:44 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:33:46 | [システム管理者]Le Diep PUT /api/form/1 body:{"content":"[\"<div data-type=\\\"text\\\" data-display=\\\"名前(全角)\\\" data-name=\\\"name\\\" data-maxlength=\\\"50\\\" data-text-type=\\\"ja\\\" data-required=\\\"1\\\" class=\\\"\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\"><label style=\\\"display:flex;align-items:center;\\\" for=\\\"name\\\">名前(全角)<span style=\\\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px;\\\">必須</span></label> <input type=\\\"text\\\" style=\\\"width:100%;padding:4px 10px;border-radius: 4px;border: 1px solid currentColor;line-height: 32px;\\\" id=\\\"name\\\" name=\\\"name\\\" required=\\\"\\\" maxlength=\\\"50\\\" pattern=\\\"[一-龯ぁ-ゔゞ゛゜ーァ-・ヽヾ゛゜ー０-９　]{0,50}\\\" oninput=\\\"countText(event)\\\"><p style=\\\"font-weight:400;font-size:14px;\\\">\\n\\t\\t\\t\\t\\t残り文字数 : <span>50</span>\\n\\t\\t\\t\\t</p></div>\",\"<div data-type=\\\"text\\\" data-display=\\\"カナ(全角)\\\" data-name=\\\"kana\\\" data-maxlength=\\\"50\\\" data-text-type=\\\"ja\\\" data-required=\\\"1\\\" class=\\\"\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\"><label style=\\\"display:flex;align-items:center;\\\" for=\\\"kana\\\">カナ(全角)<span style=\\\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px;\\\">必須</span></label> <input type=\\\"text\\\" style=\\\"width:100%;padding:4px 10px;border-radius: 4px;border: 1px solid currentColor;line-height: 32px;\\\" id=\\\"kana\\\" name=\\\"kana\\\" required=\\\"\\\" maxlength=\\\"50\\\" pattern=\\\"[一-龯ぁ-ゔゞ゛゜ーァ-・ヽヾ゛゜ー０-９　]{0,50}\\\" oninput=\\\"countText(event)\\\"><p style=\\\"font-weight:400;font-size:14px;\\\">\\n\\t\\t\\t\\t\\t残り文字数 : <span>50</span>\\n\\t\\t\\t\\t</p></div>\",\"<div data-type=\\\"email\\\" data-display=\\\"メールアドレス\\\" data-name=\\\"email\\\" data-required=\\\"1\\\" class=\\\"\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\"><label style=\\\"display:flex;align-items:center;\\\" for=\\\"email\\\">メールアドレス<span style=\\\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px;\\\">必須</span></label> <input type=\\\"email\\\" style=\\\"width:100%;padding:4px 10px;border-radius: 4px;border: 1px solid currentColor;line-height: 32px;\\\" id=\\\"email\\\" name=\\\"email\\\" required=\\\"\\\"></div>\",\"<div data-type=\\\"date\\\" data-display=\\\"年生月日\\\" data-name=\\\"birthday\\\" data-maxlength=\\\"2023-12-31\\\" data-required=\\\"1\\\" class=\\\"\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\"><label style=\\\"display:flex;align-items:center;\\\" for=\\\"birthday\\\">年生月日<span style=\\\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px;\\\">必須</span></label> <input style=\\\"width:100%;padding:4px 10px;border-radius: 4px;border: 1px solid currentColor;line-height: 32px;\\\" id=\\\"birthday\\\" name=\\\"birthday\\\" type=\\\"date\\\" required=\\\"\\\" max=\\\"2023-12-31\\\" onkeydown=\\\"return false\\\"></div>\",\"<div data-type=\\\"select\\\" data-display=\\\"性別\\\" data-name=\\\"sex\\\" data-options=\\\" man,woman\\\" data-required=\\\"1\\\" class=\\\"\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\"><label style=\\\"display:flex;align-items:center;\\\" for=\\\"sex\\\">性別<span style=\\\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px;\\\">必須</span></label><div style=\\\"display:flex;flex-direction: column;\\\"><div style=\\\"display:flex;gap:4px;align-items:center;\\\"><input type=\\\"radio\\\" name=\\\"sex\\\" id=\\\"option-fu7w4u\\\" required=\\\"\\\"><label for=\\\"option-fu7w4u\\\" style=\\\"font-weight:400;\\\"> man</label></div><div style=\\\"display:flex;gap:4px;align-items:center;\\\"><input type=\\\"radio\\\" name=\\\"sex\\\" id=\\\"option-v6z8vn\\\"><label for=\\\"option-v6z8vn\\\" style=\\\"font-weight:400;\\\">woman</label></div></div></div>\",\"<div data-type=\\\"list\\\" data-display=\\\"国\\\" data-name=\\\"country\\\" data-options=\\\"japan,vietnam,USA,China\\\" data-required=\\\"1\\\" class=\\\"\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\"><label style=\\\"display:flex;align-items:center;\\\" for=\\\"country\\\">国<span style=\\\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px;\\\">必須</span></label><select id=\\\"country\\\" name=\\\"country\\\" required=\\\"\\\" style=\\\"width:100%;padding:4px 10px;border-radius: 4px;border: 1px solid currentColor;height: 42px;\\\"><option value=\\\"\\\" disabled=\\\"\\\" selected\\\"=\\\"\\\">選択してください</option><option value=\\\"japan\\\">japan</option>\\n\\t\\t\\t\\t\\t<option value=\\\"vietnam\\\">vietnam</option>\\n\\t\\t\\t\\t\\t<option value=\\\"USA\\\">USA</option>\\n\\t\\t\\t\\t\\t<option value=\\\"China\\\">China</option>\\n\\t\\t\\t\\t\\t</select></div>\",\"<div data-name=\\\"action\\\" class=\\\"\\\" style=\\\"position: relative; display: flex; justify-content: space-around; align-items: center; margin: 2rem auto; max-width: 1024px;\\\"><button type=\\\"reset\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#475569;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">リセット</button><button type=\\\"submit\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#1D4ED8;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">確認画面へ</button><style>[data-name=\\\"action\\\"] button:hover{ box-shadow: 0 2px 10px #0005; }</style><script>\\n\\t\\t\\tfunction countText(event) {\\n\\t\\t\\t\\tconst text = event.target.value;\\n\\t\\t\\t\\tconst mes = document.querySelector(\\\"#\\\" + event.target.id + \\\" ~ p>span\\\")\\n\\t\\t\\t\\tmes.innerText = event.target.maxLength - text.length\\n\\t\\t\\t}\\n\\t\\t\\t</script></div>\"]"}
+[info] 16:33:46 | [システム管理者]Le Diep | PUT /1 | formID: 1を編集が成功しました
+[http] 16:33:46 | [システム管理者]Le Diep GET /api/form/1 body:{}
+[info] 16:33:46 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 17:04:28 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 17:04:28 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 17:04:28 | [システム管理者]Le Diep GET /auth body:{}
+[info] 17:04:28 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:04:28 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 17:04:28 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:04:28 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:04:29 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 17:04:29 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:38:41 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 17:38:41 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 17:38:41 | [システム管理者]Le Diep GET /auth body:{}
+[info] 17:38:41 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:38:41 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 17:38:41 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:38:41 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:38:41 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 17:38:41 | [システム管理者]Le Diep | GET / | get all success
+[http] 18:20:48 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 18:20:48 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 18:20:48 | [システム管理者]Le Diep GET /auth body:{}
+[info] 18:20:48 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 18:20:48 | [システム管理者]Le Diep | GET / | get all success
+[http] 18:20:48 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 18:20:48 | [システム管理者]Le Diep | GET / | get all success
+[http] 18:20:48 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 18:20:48 | [システム管理者]Le Diep | GET / | get all success
+[http] 18:26:55 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 18:26:55 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 18:26:55 | [システム管理者]Le Diep GET /auth body:{}
+[info] 18:26:55 | [システム管理者]Le Diep | GET / | get all success
+[info] 18:26:55 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 18:26:55 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 18:26:55 | [システム管理者]Le Diep | GET / | get all success
+[http] 18:26:56 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 18:26:56 | [システム管理者]Le Diep | GET / | get all success
+[http] 18:48:45 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 18:48:45 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 18:48:45 | [システム管理者]Le Diep GET /auth body:{}
+[info] 18:48:45 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 18:48:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 18:48:45 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 18:48:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 18:48:46 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 18:48:46 | [システム管理者]Le Diep | GET / | get all success
+[info] 19:26:36 | サーバの起動が完了しました。
+[http] 19:26:44 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 19:26:44 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 19:26:44 | [システム管理者]Le Diep GET /auth body:{}
+[info] 19:26:44 | [システム管理者]Le Diep | GET / | get all success
+[info] 19:26:44 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 19:26:44 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 19:26:44 | [システム管理者]Le Diep | GET / | get all success
+[http] 19:26:46 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 19:26:46 | [システム管理者]Le Diep | GET / | get all success
+[http] 20:40:12 | 匿名 GET /api/config body:{}
+[http] 20:40:12 | 匿名 GET /api/domain body:{}
+[http] 20:40:12 | 匿名 GET /auth body:{}
+[info] 20:40:12 | 匿名 | GET / | システム設定環境変数を取得できました
+[info] 20:40:12 | 匿名 | GET / | get all success
+[http] 20:40:16 | 匿名 GET /auth/login/msal body:{}
+[http] 20:40:16 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 20:40:16 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 20:40:16 | [システム管理者]Le Diep | GET / | get all success
+[http] 20:40:19 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 20:40:19 | [システム管理者]Le Diep | GET / | get all success
+[http] 20:54:21 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 20:54:21 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 20:54:21 | [システム管理者]Le Diep GET /auth body:{}
+[info] 20:54:21 | [システム管理者]Le Diep | GET / | get all success
+[info] 20:54:21 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 20:54:21 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 20:54:21 | [システム管理者]Le Diep | GET / | get all success
+[http] 20:54:21 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 20:54:21 | [システム管理者]Le Diep | GET / | get all success
+[http] 20:57:02 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 20:57:02 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 20:57:02 | [システム管理者]Le Diep GET /auth body:{}
+[info] 20:57:02 | [システム管理者]Le Diep | GET / | get all success
+[info] 20:57:02 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 20:57:02 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 20:57:02 | [システム管理者]Le Diep | GET / | get all success
+[http] 20:57:02 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 20:57:02 | [システム管理者]Le Diep | GET / | get all success
+[http] 21:06:35 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 21:06:35 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 21:06:35 | [システム管理者]Le Diep GET /auth body:{}
+[info] 21:06:35 | [システム管理者]Le Diep | GET / | get all success
+[info] 21:06:35 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 21:06:36 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 21:06:36 | [システム管理者]Le Diep | GET / | get all success
+[http] 21:06:36 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 21:06:36 | [システム管理者]Le Diep | GET / | get all success

@@ -1,0 +1,200 @@
+@font-face {
+  font-family: Noto Sans JP;
+  font-style: thin;
+  font-weight: 100;
+  src: url("/fonts/NotoSansJP-Thin.ttf") format("truetype");
+}
+@font-face {
+  font-family: Noto Sans JP;
+  font-style: extra-light;
+  font-weight: 200;
+  src: url("/fonts/NotoSansJP-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: Noto Sans JP;
+  font-style: light;
+  font-weight: 300;
+  src: url("/fonts/NotoSansJP-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/NotoSansJP-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: Noto Sans JP;
+  font-style: medium;
+  font-weight: 500;
+  src: url("/fonts/NotoSansJP-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: Noto Sans JP;
+  font-style: semi-bold;
+  font-weight: 600;
+  src: url("/fonts/NotoSansJP-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Noto Sans JP;
+  font-style: bold;
+  font-weight: 700;
+  src: url("/fonts/NotoSansJP-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Noto Sans JP;
+  font-style: extra-bold;
+  font-weight: 800;
+  src: url("/fonts/NotoSansJP-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Noto Sans JP;
+  font-style: black;
+  font-weight: 900;
+  src: url("/fonts/NotoSansJP-Black.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-drag: none;
+  word-break: break-all;
+}
+body {
+  overflow-x: visible;
+  overflow-y: auto;
+  font-family: Noto Sans JP;
+  font-weight: 400;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+[data-block="row"] {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+[data-block="cell"] {
+  flex: 1;
+}
+
+@media only screen and (max-width: 500px) {
+  [data-block="cell"] {
+    min-width: 80vw;
+    width: 100% !important;
+  }
+}
+table {
+  display: table;
+  table-layout: auto !important;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+table thead {
+  border-bottom: 2px solid #333;
+}
+table th {
+  background-color: #f3f3f3;
+  border: 1px solid #e1e1e1;
+  padding: 0.4em;
+  background-clip: padding-box;
+}
+table td {
+  border: 1px solid #e1e1e1;
+  background-clip: padding-box;
+  padding: 0 !important;
+}
+table td span {
+  display: block !important;
+  text-align: inherit;
+  width: 100%;
+}
+table.se-table-size-auto {
+  width: auto !important;
+}
+table.se-table-size-100 {
+  width: 100% !important;
+}
+table.se-table-layout-auto {
+  table-layout: auto !important;
+}
+table.se-table-layout-fixed {
+  table-layout: fixed !important;
+}
+.se-component {
+  display: flex;
+  padding: 1px;
+  margin: 0 0 10px;
+}
+.__se__float-left {
+  float: left;
+  justify-content: flex-start;
+  margin-right: 4px;
+}
+.__se__float-right {
+  float: right;
+  justify-content: flex-end;
+  margin-left: 4px;
+}
+.__se__float-center {
+  float: center;
+  justify-content: center;
+}
+.__se__float-none {
+  float: none;
+}
+.sun-editor-editable p {
+  margin: 0 !important;
+}
+ol,
+ul {
+  list-style-position: outside;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 40px;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin-bottom: 5px;
+}
+pre {
+  display: block;
+  padding: 8px;
+  margin: 0 0 10px;
+  font-family: monospace;
+  color: #666;
+  line-height: 1.45;
+  background-color: #f9f9f9;
+  border: 1px solid #e1e1e1;
+  border-radius: 2px;
+  white-space: pre-wrap !important;
+  word-wrap: break-word;
+  overflow: visible;
+}
+blockquote {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  color: #999;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding: 0 5px 0 20px;
+  border: solid #b1b1b1;
+  border-width: 0 0 0 5px;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/2192.b8544087.chunk.js","mappings":"2KAAe,SAASA,IACvB,OAAOC,EAAAA,EAAAA,KAAAC,EAAAA,SAAA,CAAAC,SAAE,YACV,C","sources":["pages/Overview/index.tsx"],"sourcesContent":["export default function Overview() {\n\treturn <>Overview</>\n}\n"],"names":["Overview","_jsx","_Fragment","children"],"sourceRoot":""}

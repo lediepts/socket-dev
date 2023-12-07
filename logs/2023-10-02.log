@@ -1,0 +1,133 @@
+[info] 13:22:37 | サーバの起動が完了しました。
+[http] 13:22:50 | 匿名 GET /auth body:{}
+[http] 13:22:50 | 匿名 GET /api/config body:{}
+[info] 13:22:50 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 13:24:06 | 匿名 GET /auth/login/msal body:{}
+[http] 13:24:06 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 13:24:11 | [admin-system]Le Diep GET /api/group body:{}
+[info] 13:24:11 | [admin-system]Le Diep | GET / | get all success
+[http] 13:30:13 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:30:13 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:30:19 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:30:19 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:30:19 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:30:23 | [admin-system]Le Diep GET /api/group body:{}
+[info] 13:30:23 | [admin-system]Le Diep | GET / | get all success
+[http] 13:33:53 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:33:53 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 13:36:44 | サーバの起動が完了しました。
+[info] 13:37:58 | サーバの起動が完了しました。
+[http] 13:39:46 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:39:46 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:39:49 | [admin-system]Le Diep GET /api/config body:{}
+[http] 13:39:49 | [admin-system]Le Diep GET /auth body:{}
+[info] 13:39:49 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:55:45 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:55:45 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:55:45 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:56:07 | [admin-system]Le Diep GET /auth body:{}
+[http] 13:56:07 | [admin-system]Le Diep GET /api/config body:{}
+[info] 13:56:07 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 13:57:34 | サーバの起動が完了しました。
+[info] 13:58:11 | サーバの起動が完了しました。
+[info] 13:58:46 | サーバの起動が完了しました。
+[http] 14:00:15 | [admin-system]Le Diep POST /api/group/ body:{"name":"group 01","permission":[],"description":"hoge"}
+[http] 14:00:41 | [admin-system]Le Diep GET /auth body:{}
+[http] 14:00:41 | [admin-system]Le Diep GET /api/config body:{}
+[info] 14:00:41 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 14:00:53 | [admin-system]Le Diep POST /api/group/ body:{"name":"123","permission":"0000000","description":"123"}
+[info] 14:00:53 | [admin-system]Le Diep | POST / | groupID: 2を作成が成功しました
+[http] 14:01:01 | [admin-system]Le Diep GET /api/group body:{}
+[info] 14:01:01 | [admin-system]Le Diep | GET / | get all success
+[http] 14:01:14 | [admin-system]Le Diep POST /api/group/ body:{"name":"weqwe","permission":"7777770","description":"qweqwe"}
+[info] 14:01:14 | [admin-system]Le Diep | POST / | groupID: 3を作成が成功しました
+[info] 14:18:47 | サーバの起動が完了しました。
+[info] 14:19:32 | サーバの起動が完了しました。
+[info] 14:21:33 | サーバの起動が完了しました。
+[http] 14:26:36 | [admin-system]Le Diep GET /api/group body:{}
+[info] 14:26:36 | [admin-system]Le Diep | GET / | get all success
+[info] 14:28:41 | サーバの起動が完了しました。
+[http] 14:34:17 | [admin-system]Le Diep GET /api/config body:{}
+[http] 14:34:17 | [admin-system]Le Diep GET /auth body:{}
+[info] 14:34:17 | [admin-system]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 14:34:19 | [admin-system]Le Diep GET /api/group body:{}
+[info] 14:34:19 | [admin-system]Le Diep | GET / | get all success
+[info] 14:52:21 | サーバの起動が完了しました。
+[info] 14:54:28 | サーバの起動が完了しました。
+[info] 15:09:25 | サーバの起動が完了しました。
+[info] 15:13:17 | サーバの起動が完了しました。
+[info] 15:53:08 | サーバの起動が完了しました。
+[http] 15:59:55 | 匿名 POST /auth/logout body:{}
+[http] 16:00:13 | 匿名 GET /auth body:{}
+[http] 16:00:13 | 匿名 GET /api/config body:{}
+[info] 16:00:13 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 16:00:14 | 匿名 GET /auth/login/msal body:{}
+[http] 16:00:14 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[info] 16:04:35 | サーバの起動が完了しました。
+[info] 16:07:27 | サーバの起動が完了しました。
+[info] 16:07:34 | サーバの起動が完了しました。
+[info] 16:09:30 | サーバの起動が完了しました。
+[info] 16:11:24 | サーバの起動が完了しました。
+[error] 16:11:54 | DB Sync error
+[error] 16:12:00 | DB Sync error
+[error] 16:12:21 | DB Sync error
+[error] 17:37:39 | DB Sync error
+[error] 17:37:43 | DB Sync error
+[error] 17:37:45 | DB Sync error
+[error] 17:39:49 | DB Sync error
+[error] 17:39:53 | DB Sync error
+[error] 17:39:57 | DB Sync error
+[error] 17:40:59 | DB Sync error
+[error] 17:41:48 | DB Sync error
+[error] 17:43:20 | DB Sync error
+[error] 17:43:28 | DB Sync error
+[error] 17:43:30 | DB Sync error
+[error] 17:44:31 | DB Sync error
+[error] 17:44:45 | DB Sync error
+[error] 17:44:46 | DB Sync error
+[error] 17:44:55 | DB Sync error
+[error] 17:46:10 | DB Sync error
+[error] 17:46:11 | DB Sync error
+[error] 17:46:14 | DB Sync error
+[error] 17:50:01 | DB Sync error
+[error] 17:51:24 | DB Sync error
+[error] 17:54:52 | DB Sync error
+[error] 17:56:32 | DB Sync error
+[error] 18:32:18 | DB Sync error
+[error] 18:45:05 | DB Sync error
+[error] 18:46:00 | DB Sync error
+[error] 18:49:03 | DB Sync error
+[error] 18:49:33 | DB Sync error
+[error] 18:49:40 | DB Sync error
+[error] 18:49:46 | DB Sync error
+[error] 18:49:51 | DB Sync error
+[error] 18:50:02 | DB Sync error
+[error] 18:51:36 | DB Sync error
+[error] 18:53:07 | DB Sync error
+[error] 18:53:52 | DB Sync error
+[error] 18:54:43 | DB Sync error
+[error] 18:57:37 | DB Sync error
+[error] 19:02:47 | DB Sync error
+[error] 19:04:03 | DB Sync error
+[error] 19:04:14 | DB Sync error
+[error] 19:04:44 | DB Sync error
+[error] 19:06:09 | DB Sync error
+[error] 19:07:54 | DB Sync error
+[error] 19:08:47 | DB Sync error
+[error] 19:09:03 | DB Sync error
+[error] 19:09:04 | DB Sync error
+[error] 19:09:13 | DB Sync error
+[error] 19:09:37 | DB Sync error
+[error] 19:09:41 | DB Sync error
+[error] 19:14:36 | DB Sync error
+[error] 19:14:42 | DB Sync error
+[error] 19:16:09 | DB Sync error
+[info] 19:16:21 | サーバの起動が完了しました。
+[info] 19:16:34 | サーバの起動が完了しました。
+[http] 19:17:47 | 匿名 GET /auth body:{}
+[http] 19:17:47 | 匿名 GET /api/config body:{}
+[info] 19:17:47 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 19:17:49 | 匿名 GET /auth/login/msal body:{}
+[http] 19:17:49 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 19:17:51 | [admin-system]Le Diep GET /api/group body:{}
+[info] 19:17:51 | [admin-system]Le Diep | GET / | get all success

@@ -1,0 +1,479 @@
+[info] 11:52:16 | サーバの起動が完了しました。
+[http] 11:52:25 | 匿名 GET /api/domain body:{}
+[http] 11:52:25 | 匿名 GET /api/config body:{}
+[info] 11:52:25 | 匿名 | GET / | get all success
+[http] 11:52:25 | 匿名 GET /auth body:{}
+[info] 11:52:25 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 11:52:27 | 匿名 GET /auth/login/msal body:{}
+[http] 11:52:27 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 11:52:27 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 11:52:27 | [システム管理者]Le Diep | GET / | get all success
+[http] 11:52:30 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 11:52:30 | [システム管理者]Le Diep | GET / | mailings get all success
+[http] 11:52:32 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 11:52:32 | [システム管理者]Le Diep | GET / | get all success
+[http] 11:52:42 | [システム管理者]Le Diep POST /api/mailing/4/member body:{"email":"diep.le@0004s.com"}
+[info] 11:52:42 | [システム管理者]Le Diep | POST /4/member | mail-member: 4を追加しました
+[http] 11:52:42 | [システム管理者]Le Diep GET /api/mailing/4 body:{}
+[info] 11:52:42 | [システム管理者]Le Diep | GET /4 | mailing get one success
+[http] 11:52:46 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 11:52:46 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 11:52:57 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p>test mail</p>","mailingIds":[4],"subject":"test----"}
+[http] 11:52:58 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 11:52:58 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 11:55:23 | [システム管理者]Le Diep POST /api/mailing/4/member body:{"email":"crescendo0609@gmail.com"}
+[info] 11:55:23 | [システム管理者]Le Diep | POST /4/member | mail-member: 4を追加しました
+[http] 11:55:23 | [システム管理者]Le Diep GET /api/mailing/4 body:{}
+[info] 11:55:23 | [システム管理者]Le Diep | GET /4 | mailing get one success
+[http] 11:55:44 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p>test 10</p>","mailingIds":[4],"subject":"test 10"}
+[http] 11:55:44 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 11:55:44 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 13:13:51 | 匿名 POST /auth/logout body:{}
+[http] 13:14:01 | 匿名 GET /api/domain body:{}
+[http] 13:14:01 | 匿名 GET /api/config body:{}
+[http] 13:14:01 | 匿名 GET /auth body:{}
+[info] 13:14:01 | 匿名 | GET / | get all success
+[info] 13:14:01 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 13:14:02 | 匿名 GET /auth/login/msal body:{}
+[http] 13:14:02 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 13:14:02 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 13:14:02 | [システム管理者]Le Diep | GET / | get all success
+[info] 13:14:44 | サーバの起動が完了しました。
+[info] 13:51:31 | サーバの起動が完了しました。
+[info] 13:59:33 | サーバの起動が完了しました。
+[info] 14:00:12 | サーバの起動が完了しました。
+[http] 14:01:06 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 14:01:06 | [システム管理者]Le Diep | GET / | mailings get all success
+[http] 14:01:06 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 14:01:06 | [システム管理者]Le Diep | GET /history | histories get all success
+[info] 14:13:55 | サーバの起動が完了しました。
+[http] 14:39:29 | 匿名 GET /api/group body:{}
+[http] 14:39:29 | 匿名 GET /api/group body:{}
+[http] 14:39:29 | 匿名 GET /api/group body:{}
+[http] 14:39:29 | 匿名 GET /api/group body:{}
+[http] 14:39:30 | 匿名 GET /api/domain body:{}
+[http] 14:39:30 | 匿名 GET /api/config body:{}
+[http] 14:39:30 | 匿名 GET /auth body:{}
+[info] 14:39:30 | 匿名 | GET / | get all success
+[info] 14:39:30 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 14:39:32 | 匿名 GET /auth/login/msal body:{}
+[http] 14:39:32 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 14:39:32 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 14:39:32 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:39:33 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:39:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:39:33 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:39:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:39:33 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:39:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:39:33 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:39:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:39:42 | [システム管理者]Le Diep GET /api/local body:{}
+[info] 14:39:42 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:39:42 | [システム管理者]Le Diep GET /imgs/bg_pattern.webp body:{}
+[http] 14:39:42 | [システム管理者]Le Diep GET /imgs/fabric_1.webp body:{}
+[http] 14:39:46 | [システム管理者]Le Diep POST /api/cms/web/ body:{"name":"CAA","ogURL":"https://cocolis-portal.caa.go.jp","ogImage":"cocolis.png","ogDescription":"-"}
+[error] 14:39:46 | [システム管理者]Le Diep | POST / | error
+[info] 14:40:17 | サーバの起動が完了しました。
+[http] 14:40:18 | [システム管理者]Le Diep POST /api/cms/web/ body:{"name":"CAA","ogURL":"https://cocolis-portal.caa.go.jp","ogImage":"cocolis.png","ogDescription":"-"}
+[error] 14:40:19 | [システム管理者]Le Diep | POST / | error
+[info] 14:41:24 | サーバの起動が完了しました。
+[http] 14:41:29 | [システム管理者]Le Diep POST /api/cms/web/ body:{"name":"CAA","ogURL":"https://cocolis-portal.caa.go.jp","ogImage":"cocolis.png","ogDescription":"-"}
+[http] 14:42:24 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 14:42:24 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 14:42:24 | [システム管理者]Le Diep GET /auth body:{}
+[info] 14:42:24 | [システム管理者]Le Diep | GET / | get all success
+[info] 14:42:24 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 14:42:24 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 14:42:24 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:45:25 | [システム管理者]Le Diep GET /api/local body:{}
+[info] 14:45:25 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:45:25 | [システム管理者]Le Diep GET /imgs/bg_pattern.webp body:{}
+[http] 14:45:26 | [システム管理者]Le Diep GET /imgs/fabric_1.webp body:{}
+[http] 14:46:26 | [システム管理者]Le Diep POST /api/cms/web/ body:{"name":"CAA","ogURL":"https://cocolis-portal.caa.go.jp","favicon":"cocolis.png","ogImage":"isolation.svg","ogDescription":"-"}
+[info] 14:46:27 | [システム管理者]Le Diep | POST / | web: CAAを作成が成功しました
+[http] 14:46:27 | [システム管理者]Le Diep GET /api/cms/web/2 body:{}
+[info] 14:46:27 | [システム管理者]Le Diep | GET /2 | get one success
+[http] 14:46:27 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[http] 14:46:27 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[http] 14:46:27 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:46:27 | [システム管理者]Le Diep | GET / | get all success
+[info] 14:46:27 | [システム管理者]Le Diep | GET / | get all success
+[info] 14:46:27 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:48:54 | [システム管理者]Le Diep PUT /api/cms/web/0 body:{"ogImage":"cocolis.png"}
+[warn] 14:48:54 | [システム管理者]Le Diep | PUT /0 | 存在していません
+[http] 14:49:43 | [システム管理者]Le Diep PUT /api/cms/web/1 body:{"ogImage":"cocolis.png"}
+[info] 14:49:43 | [システム管理者]Le Diep | PUT /1 | web: GITを編集が成功しました
+[http] 14:49:43 | [システム管理者]Le Diep GET /api/cms/web/1 body:{}
+[info] 14:49:43 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:49:47 | [システム管理者]Le Diep GET /auth body:{}
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:49:47 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 14:49:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:50:00 | [システム管理者]Le Diep GET /api/local body:{}
+[info] 14:50:00 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:50:00 | [システム管理者]Le Diep GET /imgs/bg_pattern.webp body:{}
+[http] 14:50:01 | [システム管理者]Le Diep GET /imgs/fabric_1.webp body:{}
+[http] 14:50:05 | [システム管理者]Le Diep PUT /api/cms/web/1 body:{"favicon":"fabric_1.webp"}
+[info] 14:50:05 | [システム管理者]Le Diep | PUT /1 | web: GITを編集が成功しました
+[http] 14:50:06 | [システム管理者]Le Diep GET /api/cms/web/1 body:{}
+[info] 14:50:06 | [システム管理者]Le Diep | GET /1 | get one success
+[info] 14:52:53 | サーバの起動が完了しました。
+[info] 14:54:38 | サーバの起動が完了しました。
+[http] 14:54:45 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[http] 14:54:45 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 14:54:45 | [システム管理者]Le Diep | GET / | get all success
+[info] 14:54:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:54:57 | [システム管理者]Le Diep POST /api/cms/page/ body:{"url":"/index.html","webId":2,"themeId":1,"title":"home","body":{"fceit5uxemvsw":""},"description":"","style":"","script":""}
+[info] 14:54:57 | [システム管理者]Le Diep | POST / | page: /index.htmlを作成が成功しました
+[http] 14:54:57 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:54:57 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:54:57 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:54:57 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:54:57 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:54:57 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:54:58 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[info] 14:54:58 | [システム管理者]Le Diep | GET / | get all success
+[http] 14:55:03 | [システム管理者]Le Diep GET /staging/CAA/index.html body:{}
+[info] 14:55:22 | サーバの起動が完了しました。
+[http] 14:55:37 | [システム管理者]Le Diep PUT /api/cms/page/3 body:{"body":{"fceit5uxemvsw":"<div data-editable=\"fceit5uxemvsw\"><div data-block=\"row\"><div data-block=\"cell\" style=\"flex-basis:33.33%\"><div data-type=\"img\"><div style=\"width:100%;height:auto;display:flex;justify-content:center;align-items:center\" data-width=\"\" data-height=\"\" data-path=\"/imgs/classacction.svg\" data-vertical=\"center\" data-horizontal=\"center\" data-target=\"_blank\" data-alt=\"\"><img src=\"/imgs/classacction.svg\" alt=\"\" style=\"width:100%;height:auto;overflow:hidden;object-fit:contain;object-position:center center\"></div></div></div><div data-block=\"cell\" style=\"flex-basis:33.33%\"></div><div data-block=\"cell\" style=\"flex-basis:33.33%\"></div></div></div>"},"subOwner":[],"style":"","script":"","formScript":"","formStyle":""}
+[info] 14:55:37 | [システム管理者]Le Diep | PUT /3 | page: homeを編集が成功しました
+[http] 14:55:37 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:55:37 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:55:37 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:55:37 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:55:37 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:55:37 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:55:37 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:55:37 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:55:40 | [システム管理者]Le Diep GET /staging/CAA/index.html body:{}
+[info] 14:57:16 | サーバの起動が完了しました。
+[http] 14:57:33 | [システム管理者]Le Diep PUT /api/cms/page/3 body:{"body":{"fceit5uxemvsw":"<div data-editable=\"fceit5uxemvsw\">\n  <div data-block=\"row\">\n    <div data-block=\"cell\" style=\"flex-basis:33.33%\">\n      <div data-type=\"img\">\n        <div style=\"width:100%;height:auto;display:flex;justify-content:center;align-items:center\" data-width=\"\" data-height=\"\" data-path=\"/imgs/classacction.svg\" data-vertical=\"center\" data-horizontal=\"center\" data-target=\"_blank\" data-alt=\"\"><img src=\"/imgs/classacction.svg\" alt=\"\" style=\"width:100%;height:auto;overflow:hidden;object-fit:contain;object-position:center center\"></div>\n      </div>\n    </div>\n    <div data-block=\"cell\" style=\"flex-basis:33.33%\"><div data-type=\"text\" style=\"display: block;\"><p data-type=\"child-text\"><span style=\"background-color: rgb(255, 0, 0)\">dasdasdasdas</span><br></p></div></div>\n    <div data-block=\"cell\" style=\"flex-basis:33.33%\"><div data-type=\"link\">\n\t\t\t\t\t<div style=\"display:flex;align-items:center;\" data-href=\"\" data-target=\"_self\" data-text=\"favicon_io.zip\" data-file=\"/docs/favicon_io.zip\">\n\t\t\t\t\t<a href=\"/docs/favicon_io.zip\" target=\"_blank\" rel=\"noreferrer\">favicon_io.zip (87KB)</a><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 1024 1024\" font-size=\"20\" style=\"color:#e90;margin-top:2px\" color=\"#e90\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M296 392h64v64h-64zm0 190v160h128V582h-64v-62h-64v62zm80 48v64h-32v-64h32zm-16-302h64v64h-64zm-64-64h64v64h-64zm64 192h64v64h-64zm0-256h64v64h-64zm494.6 88.6L639.4 73.4c-6-6-14.1-9.4-22.6-9.4H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V311.3c0-8.5-3.4-16.7-9.4-22.7zM790.2 326H602V137.8L790.2 326zm1.8 562H232V136h64v64h64v-64h174v216a42 42 0 0 0 42 42h216v494z\"></path></svg>\n\t\t\t\t\t</div>\n\t\t\t\t\t</div></div>\n  </div>\n</div>"},"subOwner":[],"style":"","script":"","formScript":"","formStyle":""}
+[info] 14:57:33 | [システム管理者]Le Diep | PUT /3 | page: homeを編集が成功しました
+[http] 14:57:33 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:57:33 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:57:33 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:57:33 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:57:33 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:57:33 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:57:33 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:57:33 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:57:33 | [システム管理者]Le Diep GET /api/cms/page/3 body:{}
+[info] 14:57:33 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 14:57:35 | [システム管理者]Le Diep GET /staging/CAA/index.html body:{}
+[http] 15:01:42 | [システム管理者]Le Diep POST /api/cms/web/ body:{"name":"https://cocolis-portal.caa.go.jp","ogURL":"https://cocolis-portal.caa.go.jp","favicon":"book.svg","ogImage":"classacction.svg","ogDescription":"-"}
+[info] 15:01:42 | [システム管理者]Le Diep | POST / | web: https://cocolis-portal.caa.go.jpを作成が成功しました
+[http] 15:01:42 | [システム管理者]Le Diep GET /api/cms/web/3 body:{}
+[info] 15:01:42 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:01:42 | [システム管理者]Le Diep GET /api/cms/web/3 body:{}
+[info] 15:01:42 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:01:42 | [システム管理者]Le Diep GET /api/cms/web/3 body:{}
+[info] 15:01:42 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:01:42 | [システム管理者]Le Diep GET /api/cms/web/3 body:{}
+[info] 15:01:42 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:01:42 | [システム管理者]Le Diep GET /api/cms/web/3 body:{}
+[info] 15:01:42 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:04:15 | [システム管理者]Le Diep POST /api/form/ body:{"name":"[システム管理者]mail","webId":3}
+[error] 15:04:15 | [システム管理者]Le Diep | POST / | error
+[http] 15:04:20 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 15:04:20 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:10:21 | [システム管理者]Le Diep PUT /api/form/3 body:{"content":"[\"<div data-format=\\\"メールアドレス\\\" data-display=\\\"mail\\\" data-name=\\\"mail\\\" data-placeholder=\\\"mail input\\\" data-required=\\\"1\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\" class=\\\"\\\"><label for=\\\"mail\\\" style=\\\"display:flex;align-items:center\\\">mail<span style=\\\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px\\\">必須</span></label><input type=\\\"email\\\" placeholder=\\\"mail input\\\" style=\\\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\\\" name=\\\"mail\\\" id=\\\"mail\\\" required=\\\"\\\"></div>\",\"<div data-format=\\\"選択肢\\\" data-display=\\\"select-01\\\" data-name=\\\"select01\\\" data-options=\\\"sl01,sl02,sl03\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\" class=\\\"\\\"><label style=\\\"display:flex;align-items:center\\\">select-01</label><div style=\\\"display:flex;flex-direction:column\\\"><div style=\\\"display: flex; gap: 4px; position: relative;\\\" data-option=\\\"option-ber43z\\\"><input type=\\\"radio\\\" name=\\\"select01\\\" id=\\\"option-ber43z\\\" required=\\\"\\\"><label for=\\\"option-ber43z\\\" style=\\\"font-weight:400\\\">sl01</label></div><div style=\\\"display: flex; gap: 4px; position: relative;\\\" data-option=\\\"option-mam4ke\\\"><input type=\\\"radio\\\" name=\\\"select01\\\" id=\\\"option-mam4ke\\\"><label for=\\\"option-mam4ke\\\" style=\\\"font-weight:400\\\">sl02</label></div><div style=\\\"display: flex; gap: 4px; position: relative;\\\" data-option=\\\"option-k2vaod\\\"><input type=\\\"radio\\\" name=\\\"select01\\\" id=\\\"option-k2vaod\\\"><label for=\\\"option-k2vaod\\\" style=\\\"font-weight:400\\\">sl03</label></div></div></div>\",\"<div data-format=\\\"短文\\\" data-display=\\\"test 01\\\" data-name=\\\"test01\\\" style=\\\"display: none; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto; opacity: 0.4;\\\" draggable=\\\"true\\\" data-branch=\\\"option-ber43z\\\" class=\\\"\\\"><label for=\\\"test01\\\" style=\\\"display:flex;align-items:center\\\">test 01</label><input type=\\\"text\\\" placeholder=\\\"\\\" style=\\\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\\\" name=\\\"test01\\\" id=\\\"test01\\\"><style>\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t[data-name=\\\"select01\\\"]:has(>div input#option-ber43z:checked) ~ [data-branch=\\\"option-ber43z\\\"] {\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tdisplay:flex !important;\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\topacity: 1 !important;\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t</style></div>\",\"<div data-format=\\\"短文\\\" data-display=\\\"test 02\\\" data-name=\\\"test02\\\" style=\\\"display: none; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto; opacity: 0.4;\\\" draggable=\\\"true\\\" data-branch=\\\"option-k2vaod\\\" class=\\\"\\\"><label for=\\\"test02\\\" style=\\\"display:flex;align-items:center\\\">test 02</label><input type=\\\"text\\\" placeholder=\\\"\\\" style=\\\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\\\" name=\\\"test02\\\" id=\\\"test02\\\"><style>\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t[data-name=\\\"select01\\\"]:has(>div input#option-k2vaod:checked) ~ [data-branch=\\\"option-k2vaod\\\"] {\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tdisplay:flex !important;\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\topacity: 1 !important;\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t</style></div>\",\"<div data-name=\\\"action\\\" style=\\\"position: relative; display: flex; justify-content: space-around; align-items: center; margin: 2rem auto; max-width: 1024px;\\\" class=\\\"\\\"><button type=\\\"reset\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#475569;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">リセット</button><button type=\\\"submit\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#1D4ED8;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">確認画面へ</button><style>[data-name=\\\"action\\\"] button:hover{ box-shadow: 0 2px 10px #0005; }</style><script>\\ndocument.querySelectorAll('input[maxLength][id],textarea[maxLength][id]').forEach(input=>{\\n\\tconst mes = document.querySelector(\\\"#\\\" + input.id + \\\" + p\\\")\\n\\tmes.innerHTML = \\\"<span class='character-count'>残り文字数: \\\" + input.maxLength +\\\"</span>\\\"\\n\\tinput.oninput=()=>{\\n\\tconst text = input.value\\n\\t\\t\\tmes.innerHTML = \\\"<span class='character-count'>残り文字数: \\\" + (input.maxLength - text.length) + \\\"</span>\\\"\\n\\t}\\n})\\nfunction convertJPDate(d) {\\n\\tconst date = new Date(d)\\n\\treturn date.getFullYear() + \\\"年\\\" + (date.getMonth() + 1).toString().padStart(2, \\\"0\\\") + \\\"月\\\" + date.getDate().toString().padStart(2, \\\"0\\\") + \\\"日\\\"\\n}\\nvar startDate = new Date('2000/01/01')\\nvar endDate = new Date('2100/01/01')\\nif(startDate>new Date()||endDate<new Date()){\\n\\tconst form = document.querySelector('[data-type=\\\"form\\\"]>form[action=\\\"/api/form\\\"]')\\n\\tif(form){\\n\\t\\tconst mes = document.createElement('div')\\n\\t\\tmes.innerHTML = \\\"<p style='text-align:center;color:#EC0000;'>本フォームの受付期間は、です。</p><p style='text-align:center;color:#EC0000;'>期間外の回答は無効となります、ご了承ください。</p>\\\"\\n\\t\\tform.insertAdjacentElement('beforebegin',mes)\\n\\t\\tform.remove()\\n\\t}\\n}\\n\\t\\t\\t</script></div>\"]"}
+[info] 15:10:21 | [システム管理者]Le Diep | PUT /3 | formID: 3を編集が成功しました
+[http] 15:10:21 | [システム管理者]Le Diep GET /api/form/3 body:{}
+[info] 15:10:21 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:10:21 | [システム管理者]Le Diep GET /api/form/3 body:{}
+[info] 15:10:21 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:10:21 | [システム管理者]Le Diep GET /api/form/3 body:{}
+[info] 15:10:21 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:10:21 | [システム管理者]Le Diep GET /api/form/3 body:{}
+[info] 15:10:21 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:10:21 | [システム管理者]Le Diep GET /api/form/3 body:{}
+[info] 15:10:21 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:17:23 | [システム管理者]Le Diep PUT /api/form/3 body:{"content":"[\"<div data-format=\\\"メールアドレス\\\" data-display=\\\"mail\\\" data-name=\\\"mail\\\" data-placeholder=\\\"mail input\\\" data-required=\\\"1\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\" class=\\\"\\\"><label for=\\\"mail\\\" style=\\\"display:flex;align-items:center\\\">mail<span style=\\\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px\\\">必須</span></label><input type=\\\"email\\\" placeholder=\\\"mail input\\\" style=\\\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\\\" name=\\\"mail\\\" id=\\\"mail\\\" required=\\\"\\\"></div>\",\"<div data-format=\\\"選択肢\\\" data-display=\\\"select-01\\\" data-name=\\\"yyy\\\" data-options=\\\"sl01,sl02,sl03\\\" data-branch=\\\"undefined\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\" class=\\\"\\\"><label style=\\\"display:flex;align-items:center\\\">select-01</label><div style=\\\"display:flex;flex-direction:column\\\"><div style=\\\"display: flex; gap: 4px; position: relative;\\\" data-option=\\\"option-m7260o\\\"><input type=\\\"radio\\\" name=\\\"yyy\\\" id=\\\"option-m7260o\\\" required=\\\"\\\"><label for=\\\"option-m7260o\\\" style=\\\"font-weight:400\\\">sl01</label></div><div style=\\\"display: flex; gap: 4px; position: relative;\\\" data-option=\\\"option-fyms0i\\\"><input type=\\\"radio\\\" name=\\\"yyy\\\" id=\\\"option-fyms0i\\\"><label for=\\\"option-fyms0i\\\" style=\\\"font-weight:400\\\">sl02</label></div><div style=\\\"display: flex; gap: 4px; position: relative;\\\" data-option=\\\"option-nvg6zw\\\"><input type=\\\"radio\\\" name=\\\"yyy\\\" id=\\\"option-nvg6zw\\\"><label for=\\\"option-nvg6zw\\\" style=\\\"font-weight:400\\\">sl03</label></div></div></div>\",\"<div data-format=\\\"短文\\\" data-display=\\\"test 01\\\" data-name=\\\"test01\\\" style=\\\"display: none; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto; opacity: 0.4;\\\" draggable=\\\"true\\\" data-branch=\\\"option-ber43z\\\" class=\\\"\\\"><label for=\\\"test01\\\" style=\\\"display:flex;align-items:center\\\">test 01</label><input type=\\\"text\\\" placeholder=\\\"\\\" style=\\\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\\\" name=\\\"test01\\\" id=\\\"test01\\\"><style>\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t[data-name=\\\"select01\\\"]:has(>div input#option-ber43z:checked) ~ [data-branch=\\\"option-ber43z\\\"] {\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tdisplay:flex !important;\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\topacity: 1 !important;\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t</style></div>\",\"<div data-format=\\\"短文\\\" data-display=\\\"test 02\\\" data-name=\\\"test02\\\" style=\\\"display: none; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto; opacity: 0.4;\\\" draggable=\\\"true\\\" data-branch=\\\"option-k2vaod\\\" class=\\\"\\\"><label for=\\\"test02\\\" style=\\\"display:flex;align-items:center\\\">test 02</label><input type=\\\"text\\\" placeholder=\\\"\\\" style=\\\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\\\" name=\\\"test02\\\" id=\\\"test02\\\"><style>\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t[data-name=\\\"select01\\\"]:has(>div input#option-k2vaod:checked) ~ [data-branch=\\\"option-k2vaod\\\"] {\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tdisplay:flex !important;\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\topacity: 1 !important;\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t</style></div>\",\"<div data-name=\\\"action\\\" style=\\\"position: relative; display: flex; justify-content: space-around; align-items: center; margin: 2rem auto; max-width: 1024px;\\\" class=\\\"\\\"><button type=\\\"reset\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#475569;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">リセット</button><button type=\\\"submit\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#1D4ED8;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">確認画面へ</button><style>[data-name=\\\"action\\\"] button:hover{ box-shadow: 0 2px 10px #0005; }</style><script>\\ndocument.querySelectorAll('input[maxLength][id],textarea[maxLength][id]').forEach(input=>{\\n\\tconst mes = document.querySelector(\\\"#\\\" + input.id + \\\" + p\\\")\\n\\tmes.innerHTML = \\\"<span class='character-count'>残り文字数: \\\" + input.maxLength +\\\"</span>\\\"\\n\\tinput.oninput=()=>{\\n\\tconst text = input.value\\n\\t\\t\\tmes.innerHTML = \\\"<span class='character-count'>残り文字数: \\\" + (input.maxLength - text.length) + \\\"</span>\\\"\\n\\t}\\n})\\nfunction convertJPDate(d) {\\n\\tconst date = new Date(d)\\n\\treturn date.getFullYear() + \\\"年\\\" + (date.getMonth() + 1).toString().padStart(2, \\\"0\\\") + \\\"月\\\" + date.getDate().toString().padStart(2, \\\"0\\\") + \\\"日\\\"\\n}\\nvar startDate = new Date('2000/01/01')\\nvar endDate = new Date('2100/01/01')\\nif(startDate>new Date()||endDate<new Date()){\\n\\tconst form = document.querySelector('[data-type=\\\"form\\\"]>form[action=\\\"/api/form\\\"]')\\n\\tif(form){\\n\\t\\tconst mes = document.createElement('div')\\n\\t\\tmes.innerHTML = \\\"<p style='text-align:center;color:#EC0000;'>本フォームの受付期間は、です。</p><p style='text-align:center;color:#EC0000;'>期間外の回答は無効となります、ご了承ください。</p>\\\"\\n\\t\\tform.insertAdjacentElement('beforebegin',mes)\\n\\t\\tform.remove()\\n\\t}\\n}\\n\\t\\t\\t</script></div>\"]"}
+[info] 15:17:23 | [システム管理者]Le Diep | PUT /3 | formID: 3を編集が成功しました
+[http] 15:17:23 | [システム管理者]Le Diep GET /api/form/3 body:{}
+[info] 15:17:23 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:17:23 | [システム管理者]Le Diep GET /api/form/3 body:{}
+[info] 15:17:23 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:17:23 | [システム管理者]Le Diep GET /api/form/3 body:{}
+[info] 15:17:23 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:17:23 | [システム管理者]Le Diep GET /api/form/3 body:{}
+[info] 15:17:23 | [システム管理者]Le Diep | GET /3 | get one success
+[http] 15:17:23 | [システム管理者]Le Diep GET /api/form/3 body:{}
+[info] 15:17:23 | [システム管理者]Le Diep | GET /3 | get one success
+[info] 15:31:06 | サーバの起動が完了しました。
+[info] 15:39:37 | サーバの起動が完了しました。
+[http] 16:40:14 | 匿名 GET /api/config body:{}
+[http] 16:40:14 | 匿名 GET /api/domain body:{}
+[http] 16:40:14 | 匿名 GET /auth body:{}
+[info] 16:40:14 | 匿名 | GET / | システム設定環境変数を取得できました
+[info] 16:40:14 | 匿名 | GET / | get all success
+[http] 16:40:19 | 匿名 GET /auth/login/msal body:{}
+[http] 16:40:19 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 16:40:19 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:40:19 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:45:15 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 16:45:15 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 16:45:15 | [システム管理者]Le Diep GET /auth body:{}
+[info] 16:45:15 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:45:15 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:45:15 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:45:15 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:47:58 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 16:47:58 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 16:47:58 | [システム管理者]Le Diep GET /auth body:{}
+[info] 16:47:58 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 16:47:58 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:47:58 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:47:58 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:59:46 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 16:59:46 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 16:59:46 | [システム管理者]Le Diep GET /auth body:{}
+[info] 16:59:46 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 16:59:46 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:59:46 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:59:46 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:00:07 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 17:00:07 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 17:00:07 | [システム管理者]Le Diep GET /auth body:{}
+[info] 17:00:07 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:00:07 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 17:00:07 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:00:07 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:01:07 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 17:01:07 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 17:01:07 | [システム管理者]Le Diep GET /auth body:{}
+[info] 17:01:07 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:01:07 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 17:01:07 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:01:07 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:02:14 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 17:02:14 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 17:02:14 | [システム管理者]Le Diep GET /auth body:{}
+[info] 17:02:14 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 17:02:14 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:02:14 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:02:14 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:02:39 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 17:02:39 | [システム管理者]Le Diep GET /auth body:{}
+[http] 17:02:39 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 17:02:39 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:02:39 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 17:02:39 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:02:39 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:02:46 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 17:02:46 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 17:02:46 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:02:46 | [システム管理者]Le Diep GET /auth body:{}
+[info] 17:02:46 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 17:02:46 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:02:46 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:02:59 | [システム管理者]Le Diep POST /auth/logout body:{}
+[http] 17:02:59 | [システム管理者]Le Diep POST /auth/logout body:{}
+[http] 17:03:04 | 匿名 GET /api/domain body:{}
+[http] 17:03:04 | 匿名 GET /api/config body:{}
+[http] 17:03:04 | 匿名 GET /auth body:{}
+[info] 17:03:04 | 匿名 | GET / | システム設定環境変数を取得できました
+[info] 17:03:04 | 匿名 | GET / | get all success
+[info] 17:07:09 | サーバの起動が完了しました。
+[info] 17:07:12 | サーバの起動が完了しました。
+[info] 17:07:17 | サーバの起動が完了しました。
+[info] 17:11:10 | サーバの起動が完了しました。
+[info] 17:13:18 | サーバの起動が完了しました。
+[http] 17:14:25 | 匿名 GET /api/config body:{}
+[http] 17:14:25 | 匿名 GET /api/domain body:{}
+[info] 17:14:25 | 匿名 | GET / | システム設定環境変数を取得できました
+[info] 17:14:25 | 匿名 | GET / | get all success
+[http] 17:14:25 | 匿名 GET /auth body:{}
+[http] 17:16:16 | 匿名 GET /api/domain body:{}
+[http] 17:16:16 | 匿名 GET /api/config body:{}
+[http] 17:16:16 | 匿名 GET /auth body:{}
+[info] 17:16:16 | 匿名 | GET / | get all success
+[info] 17:16:16 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 17:16:17 | 匿名 GET /auth/login/msal body:{}
+[http] 17:16:17 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 17:16:17 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:16:17 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:23:29 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 17:23:29 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 17:23:29 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 17:23:29 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 17:28:14 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 17:28:14 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:28:31 | [システム管理者]Le Diep GET /api/local body:{}
+[info] 17:28:31 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:46:09 | [システム管理者]Le Diep GET /api/local/sync body:{}
+[http] 17:46:46 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 17:46:46 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 17:46:46 | [システム管理者]Le Diep GET /auth body:{}
+[info] 17:46:46 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:46:46 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 17:46:46 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:46:46 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:46:52 | [システム管理者]Le Diep GET /api/local body:{}
+[info] 17:46:52 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:46:52 | [システム管理者]Le Diep GET /imgs/bg_pattern.webp body:{}
+[http] 17:46:52 | [システム管理者]Le Diep GET /imgs/fabric_1.webp body:{}
+[http] 17:47:00 | [システム管理者]Le Diep POST /api/cms/web/ body:{"name":"TEST","ogURL":"https://react-icons.github.io","favicon":"cocolis.png","ogImage":"isolation.svg","ogDescription":"-"}
+[info] 17:47:00 | [システム管理者]Le Diep | POST / | web: TESTを作成が成功しました
+[http] 17:47:00 | [システム管理者]Le Diep GET /api/cms/web/1 body:{}
+[info] 17:47:00 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 17:47:00 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[http] 17:47:00 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 17:47:01 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:47:01 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 17:47:01 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:47:01 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:47:03 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[info] 17:47:03 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:47:11 | [システム管理者]Le Diep POST /api/cms/theme/ body:{"name":"test"}
+[info] 17:47:11 | [システム管理者]Le Diep | POST / | theme: testを作成が成功しました
+[http] 17:47:11 | [システム管理者]Le Diep GET /api/cms/theme/1 body:{}
+[info] 17:47:11 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 17:47:17 | [システム管理者]Le Diep PUT /api/cms/theme/1 body:{"body":"\n{block:o3zhzj27nghx1}\n","head":"<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/common.css\">","script":"","style":""}
+[info] 17:47:17 | [システム管理者]Le Diep | PUT /1 | theme: undefinedを編集が成功しました
+[http] 17:47:17 | [システム管理者]Le Diep GET /api/cms/theme/1 body:{}
+[info] 17:47:17 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 17:47:28 | [システム管理者]Le Diep POST /api/cms/template/ body:{"name":"temp1","body":{"o3zhzj27nghx1":""},"themeId":1}
+[info] 17:47:28 | [システム管理者]Le Diep | POST / | template: temp1を作成が成功しました
+[http] 17:47:28 | [システム管理者]Le Diep GET /api/cms/template/1 body:{}
+[info] 17:47:28 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 17:47:40 | [システム管理者]Le Diep POST /api/cms/page/ body:{"url":"/index.html","webId":1,"themeId":1,"title":"home","body":{"o3zhzj27nghx1":""},"description":"","style":"","script":""}
+[info] 17:47:41 | [システム管理者]Le Diep | POST / | page: /index.htmlを作成が成功しました
+[http] 17:47:41 | [システム管理者]Le Diep GET /api/cms/page/1 body:{}
+[info] 17:47:41 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 17:47:44 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 17:47:44 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:47:51 | [システム管理者]Le Diep POST /api/form/ body:{"name":"[システム管理者]test","webId":1}
+[info] 17:47:51 | [システム管理者]Le Diep | POST / | formID: 1を作成が成功しました
+[http] 17:47:51 | [システム管理者]Le Diep GET /api/form/1 body:{}
+[info] 17:47:51 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 17:51:47 | [システム管理者]Le Diep PUT /api/form/1 body:{"content":"[\"<div data-format=\\\"短文\\\" data-display=\\\"name\\\" data-name=\\\"name\\\" data-required=\\\"1\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\" class=\\\"\\\"><label for=\\\"name\\\" style=\\\"display:flex;align-items:center\\\">name<span style=\\\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px\\\">必須</span></label><input type=\\\"text\\\" placeholder=\\\"\\\" style=\\\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\\\" name=\\\"name\\\" id=\\\"name\\\" required=\\\"\\\"></div>\",\"<div data-name=\\\"action\\\" style=\\\"position: relative; display: flex; justify-content: space-around; align-items: center; margin: 2rem auto; max-width: 1024px;\\\" class=\\\"\\\"><button type=\\\"reset\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#475569;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">リセット</button><button type=\\\"submit\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#1D4ED8;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">確認画面へ</button><style>[data-name=\\\"action\\\"] button:hover{ box-shadow: 0 2px 10px #0005; }</style><script>\\ndocument.querySelectorAll('input[maxLength][id],textarea[maxLength][id]').forEach(input=>{\\n\\tconst mes = document.querySelector(\\\"#\\\" + input.id + \\\" + p\\\")\\n\\tmes.innerHTML = \\\"<span class='character-count'>残り文字数: \\\" + input.maxLength +\\\"</span>\\\"\\n\\tinput.oninput=()=>{\\n\\tconst text = input.value\\n\\t\\t\\tmes.innerHTML = \\\"<span class='character-count'>残り文字数: \\\" + (input.maxLength - text.length) + \\\"</span>\\\"\\n\\t}\\n})\\nfunction convertJPDate(d) {\\n\\tconst date = new Date(d)\\n\\treturn date.getFullYear() + \\\"年\\\" + (date.getMonth() + 1).toString().padStart(2, \\\"0\\\") + \\\"月\\\" + date.getDate().toString().padStart(2, \\\"0\\\") + \\\"日\\\"\\n}\\nvar startDate = new Date('2000/01/01')\\nvar endDate = new Date('2100/01/01')\\nif(startDate>new Date()||endDate<new Date()){\\n\\tconst form = document.querySelector('[data-type=\\\"form\\\"]>form[action=\\\"/api/form\\\"]')\\n\\tif(form){\\n\\t\\tconst mes = document.createElement('div')\\n\\t\\tmes.innerHTML = \\\"<p style='text-align:center;color:#EC0000;'>本フォームの受付期間は、です。</p><p style='text-align:center;color:#EC0000;'>期間外の回答は無効となります、ご了承ください。</p>\\\"\\n\\t\\tform.insertAdjacentElement('beforebegin',mes)\\n\\t\\tform.remove()\\n\\t}\\n}\\n\\t\\t\\t</script></div>\"]"}
+[info] 17:51:47 | [システム管理者]Le Diep | PUT /1 | formID: 1を編集が成功しました
+[http] 17:51:47 | [システム管理者]Le Diep GET /api/form/1 body:{}
+[info] 17:51:47 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 17:52:28 | [システム管理者]Le Diep PUT /api/form/1 body:{"content":"[\"<div data-format=\\\"短文\\\" data-display=\\\"name\\\" data-name=\\\"name\\\" data-required=\\\"1\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\" class=\\\"\\\"><label for=\\\"name\\\" style=\\\"display:flex;align-items:center\\\">name<span style=\\\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px\\\">必須</span></label><input type=\\\"text\\\" placeholder=\\\"\\\" style=\\\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\\\" name=\\\"name\\\" id=\\\"name\\\" required=\\\"\\\"></div>\",\"<div data-format=\\\"メールアドレス\\\" data-display=\\\"email\\\" data-name=\\\"email\\\" data-required=\\\"1\\\" style=\\\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\\\" draggable=\\\"true\\\" class=\\\"\\\"><label for=\\\"email\\\" style=\\\"display:flex;align-items:center\\\">email<span style=\\\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px\\\">必須</span></label><input type=\\\"email\\\" placeholder=\\\"\\\" style=\\\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\\\" name=\\\"email\\\" id=\\\"email\\\" required=\\\"\\\"></div>\",\"<div data-name=\\\"action\\\" style=\\\"position: relative; display: flex; justify-content: space-around; align-items: center; margin: 2rem auto; max-width: 1024px;\\\" class=\\\"\\\"><button type=\\\"reset\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#475569;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">リセット</button><button type=\\\"submit\\\" style=\\\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#1D4ED8;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\\\">確認画面へ</button><style>[data-name=\\\"action\\\"] button:hover{ box-shadow: 0 2px 10px #0005; }</style><script>\\ndocument.querySelectorAll('input[maxLength][id],textarea[maxLength][id]').forEach(input=>{\\n\\tconst mes = document.querySelector(\\\"#\\\" + input.id + \\\" + p\\\")\\n\\tmes.innerHTML = \\\"<span class='character-count'>残り文字数: \\\" + input.maxLength +\\\"</span>\\\"\\n\\tinput.oninput=()=>{\\n\\tconst text = input.value\\n\\t\\t\\tmes.innerHTML = \\\"<span class='character-count'>残り文字数: \\\" + (input.maxLength - text.length) + \\\"</span>\\\"\\n\\t}\\n})\\nfunction convertJPDate(d) {\\n\\tconst date = new Date(d)\\n\\treturn date.getFullYear() + \\\"年\\\" + (date.getMonth() + 1).toString().padStart(2, \\\"0\\\") + \\\"月\\\" + date.getDate().toString().padStart(2, \\\"0\\\") + \\\"日\\\"\\n}\\nvar startDate = new Date('2000/01/01')\\nvar endDate = new Date('2100/01/01')\\nif(startDate>new Date()||endDate<new Date()){\\n\\tconst form = document.querySelector('[data-type=\\\"form\\\"]>form[action=\\\"/api/form\\\"]')\\n\\tif(form){\\n\\t\\tconst mes = document.createElement('div')\\n\\t\\tmes.innerHTML = \\\"<p style='text-align:center;color:#EC0000;'>本フォームの受付期間は、です。</p><p style='text-align:center;color:#EC0000;'>期間外の回答は無効となります、ご了承ください。</p>\\\"\\n\\t\\tform.insertAdjacentElement('beforebegin',mes)\\n\\t\\tform.remove()\\n\\t}\\n}\\n\\t\\t\\t</script></div>\"]"}
+[info] 17:52:28 | [システム管理者]Le Diep | PUT /1 | formID: 1を編集が成功しました
+[http] 17:52:28 | [システム管理者]Le Diep GET /api/form/1 body:{}
+[info] 17:52:28 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 17:52:37 | [システム管理者]Le Diep PUT /api/cms/page/1 body:{"body":{"o3zhzj27nghx1":"<div data-editable=\"o3zhzj27nghx1\"><div data-block=\"row\"><div data-block=\"cell\" style=\"flex-basis:100%\"><div data-type=\"form\"><form action=\"/api/form\" method=\"POST\"><input type=\"hidden\" value=\"1\" name=\"formId\">\n\t\t\t\t\t<noscript>\n\t\t\t\t\t<p style='text-align:center;color:#EC0000;'>\n\t\t\t\t\t本フォームの受付期間は、です。\n\t\t\t\t\t</p>\n\t\t\t\t\t<p style='text-align:center;color:#EC0000;'>期間外の回答は無効となります、ご了承ください。</p>\n\t\t\t\t\t</noscript>\n\t\t\t\t\t<div data-format=\"短文\" data-display=\"name\" data-name=\"name\" data-required=\"1\" style=\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\" draggable=\"true\" class=\"\"><label for=\"name\" style=\"display:flex;align-items:center\">name<span style=\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px\">必須</span></label><input type=\"text\" placeholder=\"\" style=\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\" name=\"name\" id=\"name\" required=\"\"></div><div data-format=\"メールアドレス\" data-display=\"email\" data-name=\"email\" data-required=\"1\" style=\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\" draggable=\"true\" class=\"\"><label for=\"email\" style=\"display:flex;align-items:center\">email<span style=\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px\">必須</span></label><input type=\"email\" placeholder=\"\" style=\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\" name=\"email\" id=\"email\" required=\"\"></div><div data-name=\"action\" style=\"position: relative; display: flex; justify-content: space-around; align-items: center; margin: 2rem auto; max-width: 1024px;\" class=\"\"><button type=\"reset\" style=\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#475569;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\">リセット</button><button type=\"submit\" style=\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#1D4ED8;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\">確認画面へ</button></div></form></div></div></div></div>"},"subOwner":[],"style":"","script":"","formScript":"\n\ndocument.querySelectorAll('input[maxLength][id],textarea[maxLength][id]').forEach(input=>{\n\tconst mes = document.querySelector(\"#\" + input.id + \" + p\")\n\tmes.innerHTML = \"<span class='character-count'>残り文字数: \" + input.maxLength +\"</span>\"\n\tinput.oninput=()=>{\n\tconst text = input.value\n\t\t\tmes.innerHTML = \"<span class='character-count'>残り文字数: \" + (input.maxLength - text.length) + \"</span>\"\n\t}\n})\nfunction convertJPDate(d) {\n\tconst date = new Date(d)\n\treturn date.getFullYear() + \"年\" + (date.getMonth() + 1).toString().padStart(2, \"0\") + \"月\" + date.getDate().toString().padStart(2, \"0\") + \"日\"\n}\nvar startDate = new Date('2000/01/01')\nvar endDate = new Date('2100/01/01')\nif(startDate>new Date()||endDate<new Date()){\n\tconst form = document.querySelector('[data-type=\"form\"]>form[action=\"/api/form\"]')\n\tif(form){\n\t\tconst mes = document.createElement('div')\n\t\tmes.innerHTML = \"<p style='text-align:center;color:#EC0000;'>本フォームの受付期間は、です。</p><p style='text-align:center;color:#EC0000;'>期間外の回答は無効となります、ご了承ください。</p>\"\n\t\tform.insertAdjacentElement('beforebegin',mes)\n\t\tform.remove()\n\t}\n}\n\t\t\t","formStyle":"\n[data-name=\"action\"] button:hover{ box-shadow: 0 2px 10px #0005; }"}
+[info] 17:52:37 | [システム管理者]Le Diep | PUT /1 | page: homeを編集が成功しました
+[http] 17:52:37 | [システム管理者]Le Diep GET /api/cms/page/1 body:{}
+[info] 17:52:37 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 17:52:41 | [システム管理者]Le Diep GET /staging/TEST/index.html body:{}
+[http] 17:52:49 | [システム管理者]Le Diep POST /api/form body:{"formId":"1","name":"diep","email":"diep.le@0004s.com"}
+[http] 17:53:50 | [システム管理者]Le Diep PUT /api/cms/page/1 body:{"body":{"o3zhzj27nghx1":"<div data-editable=\"o3zhzj27nghx1\">\n  <div data-block=\"row\">\n    <div data-block=\"cell\" style=\"flex-basis:100%\">\n      \n    <div data-type=\"form\"><form action=\"/api/form-confirm\" method=\"POST\"><input type=\"hidden\" value=\"1\" name=\"formId\">\n\t\t\t\t\t<noscript>\n\t\t\t\t\t<p style='text-align:center;color:#EC0000;'>\n\t\t\t\t\t本フォームの受付期間は、です。\n\t\t\t\t\t</p>\n\t\t\t\t\t<p style='text-align:center;color:#EC0000;'>期間外の回答は無効となります、ご了承ください。</p>\n\t\t\t\t\t</noscript>\n\t\t\t\t\t<div data-format=\"短文\" data-display=\"name\" data-name=\"name\" data-required=\"1\" style=\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\" draggable=\"true\" class=\"\"><label for=\"name\" style=\"display:flex;align-items:center\">name<span style=\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px\">必須</span></label><input type=\"text\" placeholder=\"\" style=\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\" name=\"name\" id=\"name\" required=\"\"></div><div data-format=\"メールアドレス\" data-display=\"email\" data-name=\"email\" data-required=\"1\" style=\"display: flex; flex-flow: column wrap; align-items: baseline; font-size: 16px; font-weight: 500; line-height: 32px; padding: 4px; position: relative; margin: 4px auto;\" draggable=\"true\" class=\"\"><label for=\"email\" style=\"display:flex;align-items:center\">email<span style=\"font-weight:400;color:#EC0000;margin-left:4px;font-size:14px\">必須</span></label><input type=\"email\" placeholder=\"\" style=\"width:100%;line-height:32px;padding:4px 10px;border-radius:4px;border:1px solid currentColor\" name=\"email\" id=\"email\" required=\"\"></div><div data-name=\"action\" style=\"position: relative; display: flex; justify-content: space-around; align-items: center; margin: 2rem auto; max-width: 1024px;\" class=\"\"><button type=\"reset\" style=\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#475569;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\">リセット</button><button type=\"submit\" style=\"display:flex;width:256px;height:56px;justify-content:center;align-items:center;background:#1D4ED8;border-radius:4px;border:none;font-size:15px;color:#fff;font-weight:500;cursor:pointer;transition:all 200ms\">確認画面へ</button></div></form></div></div>\n  </div>\n</div>"},"subOwner":[],"style":"","script":"","formScript":"\n\ndocument.querySelectorAll('input[maxLength][id],textarea[maxLength][id]').forEach(input=>{\n\tconst mes = document.querySelector(\"#\" + input.id + \" + p\")\n\tmes.innerHTML = \"<span class='character-count'>残り文字数: \" + input.maxLength +\"</span>\"\n\tinput.oninput=()=>{\n\tconst text = input.value\n\t\t\tmes.innerHTML = \"<span class='character-count'>残り文字数: \" + (input.maxLength - text.length) + \"</span>\"\n\t}\n})\nfunction convertJPDate(d) {\n\tconst date = new Date(d)\n\treturn date.getFullYear() + \"年\" + (date.getMonth() + 1).toString().padStart(2, \"0\") + \"月\" + date.getDate().toString().padStart(2, \"0\") + \"日\"\n}\nvar startDate = new Date('2000/01/01')\nvar endDate = new Date('2100/01/01')\nif(startDate>new Date()||endDate<new Date()){\n\tconst form = document.querySelector('[data-type=\"form\"]>form[action=\"/api/form\"]')\n\tif(form){\n\t\tconst mes = document.createElement('div')\n\t\tmes.innerHTML = \"<p style='text-align:center;color:#EC0000;'>本フォームの受付期間は、です。</p><p style='text-align:center;color:#EC0000;'>期間外の回答は無効となります、ご了承ください。</p>\"\n\t\tform.insertAdjacentElement('beforebegin',mes)\n\t\tform.remove()\n\t}\n}\n\t\t\t","formStyle":"\n[data-name=\"action\"] button:hover{ box-shadow: 0 2px 10px #0005; }"}
+[info] 17:53:50 | [システム管理者]Le Diep | PUT /1 | page: homeを編集が成功しました
+[http] 17:53:50 | [システム管理者]Le Diep GET /api/cms/page/1 body:{}
+[info] 17:53:50 | [システム管理者]Le Diep | GET /1 | get one success
+[http] 17:53:52 | [システム管理者]Le Diep GET /staging/TEST/index.html body:{}
+[http] 17:53:55 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[info] 17:54:59 | サーバの起動が完了しました。
+[info] 17:56:32 | サーバの起動が完了しました。
+[http] 17:56:36 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[info] 17:57:21 | サーバの起動が完了しました。
+[http] 17:57:33 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 17:57:33 | [システム管理者]Le Diep GET / body:{}
+[http] 17:57:33 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 17:57:33 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 17:57:33 | [システム管理者]Le Diep GET /auth body:{}
+[info] 17:57:33 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 17:57:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:57:33 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:57:33 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:58:39 | サーバの起動が完了しました。
+[http] 17:58:42 | [システム管理者]Le Diep GET /staging/TEST/index.html body:{}
+[http] 17:58:48 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:01:04 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[info] 18:06:24 | サーバの起動が完了しました。
+[info] 18:06:30 | サーバの起動が完了しました。
+[http] 18:06:31 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:07:47 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 18:07:47 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 18:07:47 | [システム管理者]Le Diep GET /auth body:{}
+[info] 18:07:47 | [システム管理者]Le Diep | GET / | get all success
+[info] 18:07:47 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 18:07:47 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 18:07:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 18:07:48 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 18:07:48 | [システム管理者]Le Diep | GET / | get all success
+[info] 18:08:42 | サーバの起動が完了しました。
+[http] 18:08:45 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 18:08:45 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 18:08:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 18:08:45 | [システム管理者]Le Diep GET /auth body:{}
+[info] 18:08:45 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 18:08:45 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 18:08:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 18:08:45 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 18:08:45 | [システム管理者]Le Diep | GET / | get all success
+[info] 18:08:59 | サーバの起動が完了しました。
+[info] 18:09:27 | サーバの起動が完了しました。
+[info] 18:11:05 | サーバの起動が完了しました。
+[http] 18:11:07 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:11:07 | [システム管理者]Le Diep GET /staging/TEST/confirm.html body:{}
+[http] 18:11:13 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:11:13 | [システム管理者]Le Diep GET /staging/TEST/confirm.html body:{}
+[http] 18:11:15 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:11:15 | [システム管理者]Le Diep GET /staging/TEST/confirm.html body:{}
+[http] 18:11:27 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:11:27 | [システム管理者]Le Diep GET /staging/TEST/confirm.html body:{}
+[http] 18:11:52 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:11:52 | [システム管理者]Le Diep GET /staging/TEST/confirm.html body:{}
+[http] 18:11:59 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:11:59 | [システム管理者]Le Diep GET /staging/TEST/confirm.html body:{}
+[http] 18:12:01 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:12:01 | [システム管理者]Le Diep GET /staging/TEST/confirm.html body:{}
+[http] 18:13:39 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:13:39 | [システム管理者]Le Diep GET /staging/TEST/confirm.html body:{}
+[http] 18:14:04 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:14:04 | [システム管理者]Le Diep GET /staging/TEST/confirm.html body:{}
+[http] 18:14:08 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:14:08 | [システム管理者]Le Diep GET /staging/TEST/confirm.html body:{}
+[info] 18:18:51 | サーバの起動が完了しました。
+[http] 18:18:57 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:19:35 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[info] 18:20:19 | サーバの起動が完了しました。
+[info] 18:20:32 | サーバの起動が完了しました。
+[http] 18:20:38 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:20:41 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[info] 18:20:51 | サーバの起動が完了しました。
+[http] 18:20:53 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:20:59 | [システム管理者]Le Diep GET /staging/TEST/index.html body:{}
+[http] 18:21:04 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[info] 18:22:25 | サーバの起動が完了しました。
+[http] 18:22:27 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:22:39 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[info] 18:22:57 | サーバの起動が完了しました。
+[http] 18:22:58 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[info] 18:23:26 | サーバの起動が完了しました。
+[http] 18:23:27 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[info] 18:23:50 | サーバの起動が完了しました。
+[http] 18:23:51 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:23:55 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:23:57 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:24:00 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"diep.le@0004s.com"}
+[http] 18:24:05 | [システム管理者]Le Diep POST /api/form-confirm body:{"formId":"1","name":"レフィディエプ","email":"web@0004s.com"}

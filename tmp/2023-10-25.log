@@ -1,0 +1,97 @@
+[error] 10:11:18 | DB Sync error
+[info] 10:12:07 | サーバの起動が完了しました。
+[info] 10:37:56 | サーバの起動が完了しました。
+[http] 10:50:44 | 匿名 GET / body:{}
+[http] 10:50:46 | 匿名 GET /auth body:{}
+[http] 10:50:46 | 匿名 GET /api/config body:{}
+[info] 10:50:46 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:50:52 | 匿名 GET / body:{}
+[http] 10:50:52 | 匿名 GET /auth body:{}
+[http] 10:50:52 | 匿名 GET /api/config body:{}
+[info] 10:50:52 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:51:10 | 匿名 GET / body:{}
+[http] 10:51:11 | 匿名 GET /auth body:{}
+[http] 10:51:11 | 匿名 GET /api/config body:{}
+[info] 10:51:11 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:51:26 | 匿名 GET / body:{}
+[http] 10:51:26 | 匿名 GET /auth body:{}
+[http] 10:51:26 | 匿名 GET /api/config body:{}
+[info] 10:51:26 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:52:06 | 匿名 GET / body:{}
+[http] 10:52:06 | 匿名 GET /auth body:{}
+[http] 10:52:06 | 匿名 GET /api/config body:{}
+[info] 10:52:06 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:52:10 | 匿名 POST /auth/login body:{"email":"web@0004s.com","password":"$s-mmsi@1234"}
+[http] 10:52:17 | 匿名 POST /auth/login body:{"email":"web@0004s.com","password":"4S-mmsi4@12345"}
+[http] 10:52:33 | 匿名 POST /auth/login body:{"email":"web@0004s.com","password":"4S-mmsi4@12345"}
+[http] 10:53:01 | [システム管理者]dev POST /auth/logout body:{}
+[http] 10:53:05 | 匿名 GET / body:{}
+[http] 10:53:05 | 匿名 GET /auth body:{}
+[http] 10:53:05 | 匿名 GET /api/config body:{}
+[info] 10:53:05 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:53:15 | 匿名 POST /auth/login body:{"email":"web@0004s.com","password":"4S-mmsi4@12345"}
+[http] 10:53:25 | [システム管理者]dev GET /api/domain body:{}
+[info] 10:53:25 | [システム管理者]dev | GET / | get all success
+[http] 10:53:25 | [システム管理者]dev GET /api/group body:{}
+[info] 10:53:25 | [システム管理者]dev | GET / | get all success
+[http] 10:53:28 | [システム管理者]dev GET /api/cms/theme body:{}
+[http] 10:53:28 | [システム管理者]dev GET /api/cms/template body:{}
+[info] 10:53:28 | [システム管理者]dev | GET / | get all success
+[info] 10:53:28 | [システム管理者]dev | GET / | get all success
+[http] 10:53:38 | [システム管理者]dev GET /group/1 body:{}
+[http] 10:53:39 | [システム管理者]dev GET /auth body:{}
+[http] 10:53:39 | [システム管理者]dev GET /api/config body:{}
+[info] 10:53:39 | [システム管理者]dev | GET / | システム設定環境変数を取得できました
+[http] 10:53:39 | [システム管理者]dev GET /api/domain body:{}
+[info] 10:53:39 | [システム管理者]dev | GET / | get all success
+[http] 10:53:39 | [システム管理者]dev GET /api/group body:{}
+[info] 10:53:39 | [システム管理者]dev | GET / | get all success
+[http] 10:54:14 | [システム管理者]dev POST /api/account/ body:{"email":"web1@0004s.com","groupId":1,"name":"Diep","type":"Default","password":"4S-mmsi4@12345"}
+[info] 10:54:15 | [システム管理者]dev | POST / | groupID: 1にアカウントを追加しました。
+[http] 10:54:16 | 匿名 POST /auth/login body:{"email":"web1@0004s.com","password":"4S-mmsi4@12345"}
+[http] 10:54:38 | [システム管理者]Diep POST /auth/logout body:{}
+[http] 10:54:41 | 匿名 GET / body:{}
+[http] 10:54:42 | 匿名 GET /auth body:{}
+[http] 10:54:42 | 匿名 GET /api/config body:{}
+[info] 10:54:42 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:54:46 | 匿名 GET / body:{}
+[http] 10:54:49 | 匿名 GET /auth body:{}
+[http] 10:54:49 | 匿名 GET /api/config body:{}
+[info] 10:54:49 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:55:08 | 匿名 POST /auth/login body:{"email":"web1@0004s.com","password":"4S-mmsi4@12345"}
+[http] 10:55:26 | [システム管理者]dev GET /group/1 body:{}
+[http] 10:55:27 | [システム管理者]dev GET /auth body:{}
+[http] 10:55:27 | [システム管理者]dev GET /api/config body:{}
+[info] 10:55:27 | [システム管理者]dev | GET / | システム設定環境変数を取得できました
+[http] 10:55:29 | [システム管理者]dev GET /api/domain body:{}
+[info] 10:55:29 | [システム管理者]dev | GET / | get all success
+[http] 10:55:29 | [システム管理者]dev GET /api/group body:{}
+[info] 10:55:29 | [システム管理者]dev | GET / | get all success
+[http] 10:55:36 | [システム管理者]dev GET /api/cms/template body:{}
+[http] 10:55:36 | [システム管理者]dev GET /api/cms/theme body:{}
+[info] 10:55:36 | [システム管理者]dev | GET / | get all success
+[info] 10:55:36 | [システム管理者]dev | GET / | get all success
+[http] 10:58:48 | [システム管理者]Diep GET /overview body:{}
+[http] 10:58:49 | [システム管理者]Diep GET /auth body:{}
+[http] 10:58:49 | [システム管理者]Diep GET /api/config body:{}
+[info] 10:58:49 | [システム管理者]Diep | GET / | システム設定環境変数を取得できました
+[http] 10:58:52 | [システム管理者]Diep GET /overview body:{}
+[http] 10:58:52 | [システム管理者]Diep GET /auth body:{}
+[http] 10:58:52 | [システム管理者]Diep GET /api/config body:{}
+[info] 10:58:52 | [システム管理者]Diep | GET / | システム設定環境変数を取得できました
+[http] 10:58:59 | [システム管理者]dev GET /cms/theme body:{}
+[http] 10:59:00 | [システム管理者]dev GET /auth body:{}
+[http] 10:59:00 | [システム管理者]dev GET /api/config body:{}
+[info] 10:59:00 | [システム管理者]dev | GET / | システム設定環境変数を取得できました
+[http] 10:59:01 | [システム管理者]dev GET /api/cms/theme body:{}
+[http] 10:59:01 | [システム管理者]dev GET /api/cms/template body:{}
+[info] 10:59:01 | [システム管理者]dev | GET / | get all success
+[info] 10:59:01 | [システム管理者]dev | GET / | get all success
+[http] 10:59:02 | [システム管理者]Diep GET /overview body:{}
+[http] 10:59:02 | [システム管理者]Diep GET /auth body:{}
+[http] 10:59:02 | [システム管理者]Diep GET /api/config body:{}
+[info] 10:59:02 | [システム管理者]Diep | GET / | システム設定環境変数を取得できました
+[http] 10:59:38 | [システム管理者]Diep GET /overview body:{}
+[http] 10:59:38 | [システム管理者]Diep GET /auth body:{}
+[http] 10:59:38 | [システム管理者]Diep GET /api/config body:{}
+[info] 10:59:38 | [システム管理者]Diep | GET / | システム設定環境変数を取得できました

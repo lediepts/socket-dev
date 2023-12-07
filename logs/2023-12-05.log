@@ -1,0 +1,36 @@
+[info] 10:05:24 | サーバの起動が完了しました。
+[debug] 10:05:24 | URL: http://localhost:488/
+[http] 10:05:29 | 匿名 GET /api/config body:{}
+[http] 10:05:29 | 匿名 GET /auth body:{}
+[info] 10:05:29 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:05:29 | 匿名 GET /api/domain body:{}
+[info] 10:05:29 | 匿名 | GET / | get all success
+[http] 10:05:47 | 匿名 GET /auth/login/msal body:{}
+[http] 10:05:47 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 10:05:47 | [システム管理者]Le Diep GET /api/author body:{}
+[http] 10:05:47 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[http] 10:05:47 | [システム管理者]Le Diep GET /api/workflow body:{}
+[info] 10:05:47 | [システム管理者]Le Diep | GET / | get webAuthors success
+[info] 10:05:47 | [システム管理者]Le Diep | GET / | get all success
+[info] 10:05:47 | [システム管理者]Le Diep | GET / | get workflows success
+[debug] 10:05:47 | socket 9xVHbs8XfDXAMKe1AAAB is connected!
+[http] 10:05:52 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 10:05:52 | [システム管理者]Le Diep | GET / | get all success
+[http] 10:05:53 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 10:05:53 | [システム管理者]Le Diep | GET / | get all success
+[http] 10:07:15 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[http] 10:07:15 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 10:07:15 | [システム管理者]Le Diep | GET / | get all success
+[info] 10:07:15 | [システム管理者]Le Diep | GET / | get all success
+[http] 10:07:17 | [システム管理者]Le Diep GET /staging/(%E7%89%B9%E5%AE%9A)%E9%81%A9%E6%A0%BC%E6%B6%88%E8%B2%BB%E8%80%85%E5%9B%A3%E4%BD%93%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%88/test--form.html body:{}
+[http] 10:07:20 | [システム管理者]Le Diep GET /staging/(%E7%89%B9%E5%AE%9A)%E9%81%A9%E6%A0%BC%E6%B6%88%E8%B2%BB%E8%80%85%E5%9B%A3%E4%BD%93%E3%83%9D%E3%83%BC%E3%82%BF%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%88/test--form.html body:{}
+[http] 10:07:26 | [システム管理者]Le Diep POST /form/3/confirm body:{"itemn26tti2ffc":"jviivv0ganqr5wta","itemztldjyseaa":"qw","itemb4f6m63pqy":"txhq6it7uvh1m5rm","itemqb61ouhs4x":"絵くぇ"}
+[info] 10:11:11 | サーバの起動が完了しました。
+[debug] 10:11:11 | URL: http://localhost:488/
+[debug] 10:11:16 | socket bbPErI7N4f0IaWfkAAAB is connected!
+[info] 10:11:54 | サーバの起動が完了しました。
+[debug] 10:11:54 | URL: http://localhost:488/
+[debug] 10:11:59 | socket HVsqjaOJ5XF2eYllAAAB is connected!
+[info] 10:14:06 | サーバの起動が完了しました。
+[debug] 10:14:06 | URL: http://localhost:488/
+[debug] 10:14:11 | socket Ycsm1P99I5K9dVWSAAAB is connected!

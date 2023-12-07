@@ -1,0 +1,366 @@
+[info] 00:08:35 | サーバの起動が完了しました。
+[http] 00:08:43 | 匿名 GET /api/domain body:{}
+[http] 00:08:43 | 匿名 GET /api/config body:{}
+[info] 00:08:43 | 匿名 | GET / | get all success
+[http] 00:08:43 | 匿名 GET /auth body:{}
+[info] 00:08:43 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 00:08:47 | 匿名 GET /auth/login/msal body:{}
+[http] 00:08:47 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 00:08:47 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:08:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:08:49 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:08:49 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:08:49 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:08:49 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:09:22 | [システム管理者]Le Diep GET /api/form body:{}
+[info] 00:09:22 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:09:23 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 00:09:23 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:09:38 | [システム管理者]Le Diep POST /api/mailing/3/member body:{"email":"web@0004s.com"}
+[info] 00:09:38 | [システム管理者]Le Diep | POST /3/member | mail-member: 3を追加しました
+[http] 00:09:38 | [システム管理者]Le Diep GET /api/mailing/3 body:{}
+[info] 00:09:38 | [システム管理者]Le Diep | GET /3 | mailing get one success
+[http] 00:14:58 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:14:58 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:14:58 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:14:58 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:14:58 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:14:58 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:14:58 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:14:59 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:14:59 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:14:59 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:14:59 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:18:50 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:18:50 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:18:50 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:18:50 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 00:18:50 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:18:50 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:18:50 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:18:51 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:18:51 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:18:51 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:18:51 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:20:04 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:20:04 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:20:04 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:20:04 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:20:04 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:20:04 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:20:04 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:20:04 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:20:04 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:20:04 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:20:04 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:23:40 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:23:40 | [システム管理者]Le Diep GET /auth body:{}
+[http] 00:23:40 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 00:23:40 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:23:40 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:23:40 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:23:40 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:23:41 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:23:41 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:23:41 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:23:41 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:25:47 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:25:47 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:25:47 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:25:47 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:25:47 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:25:47 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:25:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:25:47 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:25:47 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:25:47 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:25:47 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:26:25 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:26:25 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:26:25 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:26:25 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 00:26:25 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:26:25 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:26:25 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:26:25 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:26:25 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:26:25 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:26:25 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:29:47 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:29:47 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:29:47 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:29:47 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:29:47 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:29:47 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:29:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:29:47 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:29:47 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:29:47 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:29:47 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:30:32 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:30:32 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:30:32 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:30:32 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:30:32 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:30:33 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:30:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:30:33 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:30:33 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:30:33 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:30:33 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:32:33 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:32:33 | [システム管理者]Le Diep GET /auth body:{}
+[http] 00:32:33 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 00:32:33 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:32:33 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:32:33 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:32:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:32:33 | [システム管理者]Le Diep GET /api/mailing body:{}
+[http] 00:32:33 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 00:32:33 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:32:33 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:40:08 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:40:08 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:40:08 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:40:08 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 00:40:08 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:40:12 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:40:12 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:40:12 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:40:12 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:40:12 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:40:12 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:40:12 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:40:12 | [システム管理者]Le Diep GET /api/mailing body:{}
+[http] 00:40:12 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 00:40:12 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:40:12 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:40:46 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:40:46 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:40:46 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:40:46 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:40:46 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:41:21 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:41:21 | [システム管理者]Le Diep GET /auth body:{}
+[http] 00:41:21 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 00:41:21 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:41:21 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:41:22 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:41:22 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:41:22 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:41:22 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:41:22 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:41:22 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:43:10 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:43:10 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:43:10 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:43:10 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 00:43:10 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:43:10 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:43:10 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:43:10 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 00:43:10 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:43:10 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:43:10 | [システム管理者]Le Diep | GET / | mailings get all success
+[http] 00:44:51 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 00:44:51 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:44:51 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 00:44:51 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:44:51 | [システム管理者]Le Diep GET /auth body:{}
+[http] 00:44:51 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:44:51 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:44:51 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:44:51 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:44:51 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:44:51 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:45:32 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:45:32 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 00:45:32 | [システム管理者]Le Diep GET /auth body:{}
+[info] 00:45:32 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:45:32 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:45:32 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:45:32 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:45:32 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:45:32 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:45:32 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:45:32 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:50:39 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p>test 1</p><p><strong>test 2</strong><br></p><p><span style=\"background-color: rgb(0, 85, 255)\"><span style=\"color: rgb(171, 242, 0)\"><strong>test 3</strong></span></span></p><p>​<a href=\"http://suneditor.com/sample/index.html\">http://suneditor.com/sample/index.html</a>​<br></p>","mailingIds":[3],"subject":"test-mail","text":"test 1test 2test 3​http://suneditor.com/sample/index.html​"}
+[http] 00:50:39 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 00:50:39 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 00:52:08 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 00:52:08 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:52:15 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 00:52:15 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 00:52:15 | [システム管理者]Le Diep | GET / | get all success
+[info] 00:52:15 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:52:15 | [システム管理者]Le Diep GET /auth body:{}
+[http] 00:52:15 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:52:15 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:52:15 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 00:52:15 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 00:52:15 | [システム管理者]Le Diep | GET /history | histories get all success
+[info] 00:52:15 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:52:41 | サーバの起動が完了しました。
+[http] 00:52:49 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 00:52:49 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:52:49 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 00:52:49 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 00:52:49 | [システム管理者]Le Diep GET /auth body:{}
+[http] 00:52:49 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 00:52:49 | [システム管理者]Le Diep | GET / | get all success
+[http] 00:52:50 | [システム管理者]Le Diep GET /api/mailing body:{}
+[http] 00:52:50 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 00:52:50 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 00:52:50 | [システム管理者]Le Diep | GET /history | histories get all success
+[info] 01:01:46 | サーバの起動が完了しました。
+[http] 01:02:13 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p>hi! test</p>","mailingIds":[3],"subject":"test 02","text":"hi! test"}
+[http] 01:02:14 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:02:14 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:02:14 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:02:14 | [システム管理者]Le Diep | GET /history | histories get all success
+[info] 01:03:06 | サーバの起動が完了しました。
+[info] 01:04:40 | サーバの起動が完了しました。
+[info] 01:05:05 | サーバの起動が完了しました。
+[http] 01:05:19 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p>hi! test.</p>","mailingIds":[3],"subject":"test","text":"hi! test."}
+[error] 01:05:20 | [システム管理者]Le Diep | POST /send | 送信失敗しました
+[http] 01:05:20 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:05:20 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:05:20 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:05:20 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:05:20 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:05:20 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:05:20 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:05:20 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:05:20 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:05:20 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:05:43 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 01:05:43 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 01:05:43 | [システム管理者]Le Diep GET /auth body:{}
+[info] 01:05:43 | [システム管理者]Le Diep | GET / | get all success
+[info] 01:05:43 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 01:05:43 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 01:05:43 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:05:43 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 01:05:43 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 01:05:43 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 01:05:43 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:09:39 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p>test-03</p>","mailingIds":[3],"subject":"test-03","text":"test-03"}
+[error] 01:09:39 | [システム管理者]Le Diep | POST /send | 送信失敗しました
+[http] 01:09:39 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:09:39 | [システム管理者]Le Diep | GET /history | histories get all success
+[info] 01:12:57 | サーバの起動が完了しました。
+[info] 01:13:25 | サーバの起動が完了しました。
+[http] 01:13:43 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 01:13:43 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 01:13:43 | [システム管理者]Le Diep GET /auth body:{}
+[info] 01:13:43 | [システム管理者]Le Diep | GET / | get all success
+[info] 01:13:43 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 01:13:43 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 01:13:43 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:13:43 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 01:13:43 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 01:13:43 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 01:13:43 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:14:05 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 01:14:05 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 01:14:05 | [システム管理者]Le Diep GET /auth body:{}
+[info] 01:14:05 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 01:14:05 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:14:05 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 01:14:05 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:14:05 | [システム管理者]Le Diep GET /api/mailing body:{}
+[http] 01:14:05 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:14:05 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 01:14:05 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:14:15 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p>test-04</p>","mailingIds":[3],"subject":"test-04"}
+[error] 01:14:16 | [システム管理者]Le Diep | POST /send | 送信失敗しました
+[http] 01:14:16 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:14:16 | [システム管理者]Le Diep | GET /history | histories get all success
+[info] 01:18:20 | サーバの起動が完了しました。
+[http] 01:18:36 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p>test 05</p>","mailingIds":[3],"subject":"test 05"}
+[error] 01:18:36 | [システム管理者]Le Diep | POST /send | 送信失敗しました
+[http] 01:18:36 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:18:36 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:18:36 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:18:36 | [システム管理者]Le Diep | GET /history | histories get all success
+[info] 01:23:55 | サーバの起動が完了しました。
+[info] 01:25:05 | サーバの起動が完了しました。
+[info] 01:26:03 | サーバの起動が完了しました。
+[http] 01:26:07 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 01:26:07 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 01:26:07 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:26:07 | [システム管理者]Le Diep GET /auth body:{}
+[info] 01:26:07 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 01:26:07 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 01:26:07 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:26:07 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 01:26:07 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 01:26:07 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 01:26:07 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:26:17 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p>test 06</p>","mailingIds":[3],"subject":"test-06"}
+[http] 01:26:18 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:26:18 | [システム管理者]Le Diep | GET /history | histories get all success
+[info] 01:28:17 | サーバの起動が完了しました。
+[http] 01:30:08 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p><span style=\"font-size: 20px\"><span style=\"color: rgb(0, 85, 255)\"><strong>hi all!</strong></span></span></p><p><span style=\"background-color: rgb(255, 228, 0);color: rgb(255, 0, 0)\">hightlight</span><br></p><blockquote><p>block</p></blockquote><ol><li>one<br></li><li><em>two</em></li></ol>","mailingIds":[3],"subject":"test color"}
+[http] 01:30:09 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:30:09 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:30:09 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:30:09 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:33:42 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 01:33:42 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 01:33:42 | [システム管理者]Le Diep GET /auth body:{}
+[info] 01:33:42 | [システム管理者]Le Diep | GET / | get all success
+[info] 01:33:42 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 01:35:34 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p><span style=\"color: rgb(0, 0, 0)\">​</span><br></p><table class=\"se-table-layout-fixed\"><tbody><tr><td><div>1</div></td><td><div>2</div></td><td><div>3</div></td><td><div>4</div></td><td><div>5</div></td><td><div>6</div></td></tr><tr><td><div>a</div></td><td><div>b</div></td><td><div>c</div></td><td><div>e</div></td><td><div>d</div></td><td><div>f</div></td></tr></tbody></table>","mailingIds":[3],"subject":"test table"}
+[http] 01:37:42 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p><span style=\"font-size: 24px\"><strong>test link</strong></span></p><p>​<a href=\"http://localhost:3000/mail\">link</a>​<br></p>","mailingIds":[3],"subject":"test link"}
+[http] 01:38:01 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 01:38:01 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 01:38:01 | [システム管理者]Le Diep GET /auth body:{}
+[info] 01:38:01 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 01:38:01 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:38:01 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 01:38:01 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:38:01 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 01:38:01 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 01:38:01 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 01:38:01 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:38:13 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 01:38:13 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 01:38:13 | [システム管理者]Le Diep GET /auth body:{}
+[info] 01:38:13 | [システム管理者]Le Diep | GET / | get all success
+[info] 01:38:13 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 01:38:13 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 01:38:13 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:38:14 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 01:38:14 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 01:38:14 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 01:38:14 | [システム管理者]Le Diep | GET /history | histories get all success
+[info] 01:39:07 | サーバの起動が完了しました。
+[info] 01:39:25 | サーバの起動が完了しました。
+[http] 01:39:28 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 01:39:28 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:39:28 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 01:39:28 | [システム管理者]Le Diep GET /auth body:{}
+[info] 01:39:28 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 01:39:29 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 01:39:29 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:39:29 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[http] 01:39:29 | [システム管理者]Le Diep GET /api/mailing body:{}
+[info] 01:39:29 | [システム管理者]Le Diep | GET / | mailings get all success
+[info] 01:39:29 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:39:36 | [システム管理者]Le Diep POST /api/mailing/ body:{"name":"test","type":"system"}
+[info] 01:39:36 | [システム管理者]Le Diep | POST / | mail-group: 4を作成が成功しました
+[http] 01:39:36 | [システム管理者]Le Diep GET /api/mailing/4 body:{}
+[info] 01:39:36 | [システム管理者]Le Diep | GET /4 | mailing get one success
+[http] 01:39:36 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 01:39:36 | [システム管理者]Le Diep | GET / | get all success
+[http] 01:39:41 | [システム管理者]Le Diep POST /api/mailing/4/member body:{"email":"dieplh.elite@gmail.com"}
+[info] 01:39:41 | [システム管理者]Le Diep | POST /4/member | mail-member: 4を追加しました
+[http] 01:39:41 | [システム管理者]Le Diep GET /api/mailing/4 body:{}
+[info] 01:39:41 | [システム管理者]Le Diep | GET /4 | mailing get one success
+[http] 01:39:54 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p>test</p>","mailingIds":[4],"subject":"test"}
+[http] 01:39:55 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:39:55 | [システム管理者]Le Diep | GET /history | histories get all success
+[http] 01:43:25 | [システム管理者]Le Diep POST /api/mail/send body:{"html":"<p>wertyui</p>","mailingIds":[4],"subject":"test"}
+[http] 01:43:26 | [システム管理者]Le Diep GET /api/mail/history body:{}
+[info] 01:43:26 | [システム管理者]Le Diep | GET /history | histories get all success

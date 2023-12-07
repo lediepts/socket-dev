@@ -1,0 +1,555 @@
+[info] 10:03:13 | サーバの起動が完了しました。
+[http] 10:03:21 | 匿名 GET /api/config body:{}
+[http] 10:03:21 | 匿名 GET /auth body:{}
+[info] 10:03:21 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:05:07 | 匿名 GET /auth body:{}
+[http] 10:05:07 | 匿名 GET /api/config body:{}
+[info] 10:05:07 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:05:08 | 匿名 GET /auth/login/msal body:{}
+[http] 10:05:08 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 10:05:08 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 10:05:08 | [システム管理者]Le Diep | GET / | get all success
+[info] 10:29:21 | サーバの起動が完了しました。
+[info] 10:30:40 | サーバの起動が完了しました。
+[info] 10:31:51 | サーバの起動が完了しました。
+[info] 10:31:56 | サーバの起動が完了しました。
+[http] 10:34:30 | [システム管理者]Le Diep PUT /api/config body:{"fallMax":"4"}
+[info] 10:34:30 | [システム管理者]Le Diep | PUT / | configを編集が成功しました
+[http] 10:34:43 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 10:34:43 | [システム管理者]Le Diep GET /auth body:{}
+[info] 10:34:43 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 10:34:43 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 10:34:43 | [システム管理者]Le Diep | GET / | get all success
+[http] 10:34:47 | [システム管理者]Le Diep PUT /api/config body:{"fallMax":"3"}
+[info] 10:34:47 | [システム管理者]Le Diep | PUT / | configを編集が成功しました
+[http] 10:34:47 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 10:34:47 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 10:35:04 | [システム管理者]Le Diep PUT /api/config body:{"blockTime":"2"}
+[info] 10:35:04 | [システム管理者]Le Diep | PUT / | configを編集が成功しました
+[http] 10:35:04 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 10:35:04 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 10:35:26 | [システム管理者]Le Diep PUT /api/config body:{"blockTime":"1"}
+[info] 10:35:26 | [システム管理者]Le Diep | PUT / | configを編集が成功しました
+[http] 10:35:26 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 10:35:26 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 10:36:22 | [システム管理者]Le Diep POST /auth/logout body:{}
+[http] 10:36:22 | [システム管理者]Le Diep POST /auth/logout body:{}
+[http] 10:36:29 | 匿名 GET /auth body:{}
+[http] 10:36:29 | 匿名 GET /api/config body:{}
+[info] 10:36:29 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 10:36:30 | 匿名 GET /auth/login/msal body:{}
+[http] 10:36:30 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 10:36:30 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 10:36:30 | [システム管理者]Le Diep | GET / | get all success
+[http] 10:36:32 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 10:36:32 | [システム管理者]Le Diep | GET / | get all success
+[http] 10:36:32 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 10:36:32 | [システム管理者]Le Diep | GET / | get all success
+[http] 10:36:39 | [システム管理者]Le Diep GET /auth body:{}
+[http] 10:36:39 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 10:36:39 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 10:36:40 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 10:36:40 | [システム管理者]Le Diep | GET / | get all success
+[http] 10:36:40 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 10:36:40 | [システム管理者]Le Diep | GET / | get all success
+[http] 10:36:40 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 10:36:40 | [システム管理者]Le Diep | GET / | get all success
+[http] 10:37:15 | [システム管理者]Le Diep POST /api/account/ body:{"email":"web1@0004s.com","groupId":1,"name":"dev1","type":"Default","password":"4S-mmsi4@12345"}
+[info] 10:37:15 | [システム管理者]Le Diep | POST / | groupID: 1にアカウントを追加しました。
+[http] 10:37:15 | [システム管理者]Le Diep GET /api/group/1 body:{}
+[info] 10:37:15 | [システム管理者]Le Diep | GET /1 | get one success
+[info] 10:38:16 | サーバの起動が完了しました。
+[info] 10:44:34 | サーバの起動が完了しました。
+[info] 10:44:49 | サーバの起動が完了しました。
+[http] 10:45:55 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[http] 10:45:55 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[info] 10:45:55 | [システム管理者]Le Diep | GET / | get all success
+[info] 10:45:55 | [システム管理者]Le Diep | GET / | get all success
+[http] 10:45:58 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 10:45:58 | [システム管理者]Le Diep | GET / | get all success
+[http] 11:08:29 | [システム管理者]Le Diep GET /api/local body:{}
+[info] 11:08:30 | [システム管理者]Le Diep | GET / | get all success
+[http] 11:08:30 | [システム管理者]Le Diep GET /imgs/bg_pattern.webp body:{}
+[http] 11:08:30 | [システム管理者]Le Diep GET /imgs/fabric_1.webp body:{}
+[http] 11:09:22 | [システム管理者]Le Diep POST /api/local/upload body:{}
+[info] 11:09:22 | [システム管理者]Le Diep | POST /upload | ファイル名: 404.svgをアップロドが成功しました
+[http] 11:09:22 | [システム管理者]Le Diep GET /api/local/17 body:{}
+[info] 11:09:22 | [システム管理者]Le Diep | GET /17 | get One success
+[http] 11:09:22 | [システム管理者]Le Diep GET /api/local/17 body:{}
+[info] 11:09:22 | [システム管理者]Le Diep | GET /17 | get One success
+[http] 11:09:22 | [システム管理者]Le Diep GET /api/local/17 body:{}
+[info] 11:09:22 | [システム管理者]Le Diep | GET /17 | get One success
+[http] 11:09:22 | [システム管理者]Le Diep GET /api/local/17 body:{}
+[info] 11:09:22 | [システム管理者]Le Diep | GET /17 | get One success
+[http] 11:09:22 | [システム管理者]Le Diep GET /api/local/17 body:{}
+[info] 11:09:22 | [システム管理者]Le Diep | GET /17 | get One success
+[http] 11:15:08 | [システム管理者]Le Diep GET /auth body:{}
+[http] 11:15:08 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 11:15:09 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 11:15:09 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 11:15:09 | [システム管理者]Le Diep | GET / | get all success
+[http] 13:16:42 | 匿名 POST /auth/logout body:{}
+[http] 13:16:47 | 匿名 GET /auth body:{}
+[http] 13:16:47 | 匿名 GET /api/config body:{}
+[info] 13:16:47 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 13:16:47 | 匿名 GET /auth/login/msal body:{}
+[http] 13:16:47 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 13:16:47 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 13:16:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 13:16:49 | [システム管理者]Le Diep GET /api/local body:{}
+[info] 13:16:49 | [システム管理者]Le Diep | GET / | get all success
+[http] 13:16:50 | [システム管理者]Le Diep GET /imgs/bg_pattern.webp body:{}
+[http] 13:16:50 | [システム管理者]Le Diep GET /imgs/fabric_1.webp body:{}
+[http] 13:40:26 | [システム管理者]Le Diep GET /auth body:{}
+[http] 13:40:26 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 13:40:26 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:40:26 | [システム管理者]Le Diep GET /imgs/bg_pattern.webp body:{}
+[http] 13:40:26 | [システム管理者]Le Diep GET /imgs/fabric_1.webp body:{}
+[http] 13:41:24 | [システム管理者]Le Diep GET /auth body:{}
+[http] 13:41:24 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 13:41:24 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:41:24 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 13:41:24 | [システム管理者]Le Diep | GET / | get all success
+[http] 13:41:24 | [システム管理者]Le Diep GET /api/local body:{}
+[info] 13:41:24 | [システム管理者]Le Diep | GET / | get all success
+[http] 13:41:25 | [システム管理者]Le Diep GET /imgs/bg_pattern.webp body:{}
+[http] 13:41:25 | [システム管理者]Le Diep GET /imgs/fabric_1.webp body:{}
+[http] 13:45:14 | [システム管理者]Le Diep GET /auth body:{}
+[http] 13:45:14 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 13:45:14 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 13:45:14 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 13:45:14 | [システム管理者]Le Diep | GET / | get all success
+[http] 13:45:14 | [システム管理者]Le Diep GET /api/local body:{}
+[info] 13:45:14 | [システム管理者]Le Diep | GET / | get all success
+[http] 13:45:15 | [システム管理者]Le Diep GET /imgs/bg_pattern.webp body:{}
+[http] 13:45:15 | [システム管理者]Le Diep GET /imgs/fabric_1.webp body:{}
+[http] 13:47:04 | [システム管理者]Le Diep POST /api/local/upload body:{}
+[error] 13:47:04 | [システム管理者]Le Diep | POST /upload | ファイル名は存在あります
+[http] 13:47:08 | [システム管理者]Le Diep POST /api/local/upload body:{}
+[error] 13:47:08 | [システム管理者]Le Diep | POST /upload | ファイル名は存在あります
+[http] 13:47:12 | [システム管理者]Le Diep POST /api/local/upload body:{}
+[error] 13:47:12 | [システム管理者]Le Diep | POST /upload | ファイル名は存在あります
+[http] 13:49:33 | [システム管理者]Le Diep POST /api/local/upload body:{}
+[error] 13:49:33 | [システム管理者]Le Diep | POST /upload | ファイル名は存在あります
+[info] 13:52:27 | サーバの起動が完了しました。
+[http] 13:52:37 | [システム管理者]Le Diep POST /api/local/upload body:{}
+[error] 13:52:37 | [システム管理者]Le Diep | POST /upload | ファイル名は存在あります
+[http] 13:58:23 | [システム管理者]Le Diep POST /api/local/upload body:{}
+[info] 13:58:23 | [システム管理者]Le Diep | POST /upload | ファイル名: 404dasdasd.svgをアップロドが成功しました
+[http] 13:58:24 | [システム管理者]Le Diep GET /api/local/18 body:{}
+[info] 13:58:24 | [システム管理者]Le Diep | GET /18 | get One success
+[http] 13:58:24 | [システム管理者]Le Diep GET /api/local/18 body:{}
+[info] 13:58:24 | [システム管理者]Le Diep | GET /18 | get One success
+[info] 13:58:42 | サーバの起動が完了しました。
+[http] 15:22:13 | 匿名 POST /auth/logout body:{}
+[http] 15:22:13 | 匿名 GET /api/cms/theme body:{}
+[http] 15:22:13 | 匿名 GET /api/cms/template body:{}
+[http] 15:22:14 | 匿名 GET /auth body:{}
+[http] 15:22:14 | 匿名 GET /api/config body:{}
+[info] 15:22:14 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 15:22:18 | 匿名 GET /auth body:{}
+[http] 15:22:18 | 匿名 GET /api/config body:{}
+[info] 15:22:18 | 匿名 | GET / | システム設定環境変数を取得できました
+[http] 15:22:19 | 匿名 GET /auth/login/msal body:{}
+[http] 15:22:19 | 匿名 POST /auth/login/msal body:{"name":"Le Diep","email":"diep.le@0004s.com"}
+[http] 15:22:19 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 15:22:19 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:22:20 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[http] 15:22:20 | [システム管理者]Le Diep GET /api/domain body:{}
+[http] 15:22:20 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 15:22:20 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:22:20 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:22:20 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:22:20 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 15:22:20 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:22:22 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[info] 15:22:22 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:28:54 | [システム管理者]Le Diep GET /auth body:{}
+[http] 15:28:54 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 15:28:54 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 15:28:54 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 15:28:54 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:28:55 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 15:28:55 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 15:28:55 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:28:55 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:28:55 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 15:28:55 | [システム管理者]Le Diep | GET / | get all success
+[http] 15:28:55 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 15:28:55 | [システム管理者]Le Diep | GET / | get all success
+[info] 15:48:43 | サーバの起動が完了しました。
+[info] 15:51:08 | サーバの起動が完了しました。
+[info] 15:52:46 | サーバの起動が完了しました。
+[info] 15:53:03 | サーバの起動が完了しました。
+[info] 15:53:29 | サーバの起動が完了しました。
+[info] 15:54:32 | サーバの起動が完了しました。
+[http] 15:56:46 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 15:56:46 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:00:46 | [システム管理者]Le Diep POST /api/cms/template/ body:{"name":"123123","body":{"xfx3jw1dhweqg":""},"themeId":3}
+[info] 16:00:46 | [システム管理者]Le Diep | POST / | template: 123123を作成が成功しました
+[http] 16:00:46 | [システム管理者]Le Diep GET /api/cms/template/125 body:{}
+[info] 16:00:46 | [システム管理者]Le Diep | GET /125 | get one success
+[http] 16:00:46 | [システム管理者]Le Diep GET /api/cms/template/125 body:{}
+[info] 16:00:46 | [システム管理者]Le Diep | GET /125 | get one success
+[http] 16:00:46 | [システム管理者]Le Diep GET /api/cms/template/125 body:{}
+[info] 16:00:46 | [システム管理者]Le Diep | GET /125 | get one success
+[http] 16:00:46 | [システム管理者]Le Diep GET /api/cms/template/125 body:{}
+[info] 16:00:46 | [システム管理者]Le Diep | GET /125 | get one success
+[http] 16:00:46 | [システム管理者]Le Diep GET /api/cms/template/125 body:{}
+[info] 16:00:46 | [システム管理者]Le Diep | GET /125 | get one success
+[http] 16:00:46 | [システム管理者]Le Diep GET /api/cms/template/125 body:{}
+[info] 16:00:46 | [システム管理者]Le Diep | GET /125 | get one success
+[http] 16:00:46 | [システム管理者]Le Diep GET /api/cms/template/125 body:{}
+[info] 16:00:46 | [システム管理者]Le Diep | GET /125 | get one success
+[http] 16:01:17 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:01:17 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:01:17 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:01:17 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:01:17 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:01:18 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[http] 16:01:18 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[info] 16:01:18 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:01:18 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:01:18 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:01:18 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:01:19 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:01:19 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:02:00 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:02:00 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:02:00 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:02:00 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:02:00 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:02:01 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:02:01 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:02:01 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:02:01 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:02:01 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:02:01 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:02:01 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:02:01 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:02:34 | [システム管理者]Le Diep PUT /api/cms/template/125 body:{"body":{"xfx3jw1dhweqg":"<div data-editable=\"xfx3jw1dhweqg\"><div data-block=\"row\"><div data-block=\"cell\" style=\"flex-basis:100%\"></div></div></div>"},"subOwner":[]}
+[info] 16:02:34 | [システム管理者]Le Diep | PUT /125 | template: 123123を編集が成功しました
+[http] 16:02:34 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:02:34 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:03:17 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:03:17 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:03:17 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:03:17 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:03:17 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:03:18 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:03:18 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:03:18 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:03:18 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:03:18 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:03:18 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:03:18 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:03:18 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:03:48 | サーバの起動が完了しました。
+[info] 16:03:59 | サーバの起動が完了しました。
+[http] 16:04:02 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:04:02 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:04:02 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:04:02 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:04:02 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:03 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:04:03 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:04:03 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:04:03 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:03 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:04:03 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:03 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:04:03 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:18 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:04:18 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:04:18 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:04:18 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:04:18 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:19 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:04:19 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:04:19 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:04:19 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:20 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:04:20 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:20 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:04:20 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:44 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:04:44 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:04:44 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:04:44 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:04:44 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:45 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[info] 16:04:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:45 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:04:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:45 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:04:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:04:45 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:04:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:05:28 | [システム管理者]Le Diep PATCH /api/cms/template/126/active body:{}
+[info] 16:05:28 | [システム管理者]Le Diep | PATCH /126/active | Template: 123123のVersion変更しました
+[http] 16:05:28 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:05:28 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:05:32 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:05:32 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:05:32 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:05:32 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:05:32 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:05:33 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:05:33 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:05:33 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:05:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:05:33 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:05:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:05:33 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:05:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:06:07 | [システム管理者]Le Diep PATCH /api/cms/template/127/active body:{}
+[info] 16:06:07 | [システム管理者]Le Diep | PATCH /127/active | Template: 123123のVersion変更しました
+[http] 16:06:07 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:06:07 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:13:53 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:13:53 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:15:18 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:15:18 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:15:18 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:15:18 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:15:18 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:15:19 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:15:19 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:15:19 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:15:19 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:15:20 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:15:20 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:15:20 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:15:20 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:15:38 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:15:38 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:15:38 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:15:38 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:15:38 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:15:39 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:15:39 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:15:39 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:15:39 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:15:40 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:15:40 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:15:40 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:15:40 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:17:54 | [システム管理者]Le Diep POST /api/cms/validate/ body:{"html":"<div data-editable=\"xfx3jw1dhweqg\">\n  <div data-block=\"row\">\n    <div data-block=\"cell\" style=\"flex-basis:100%\"></div>\n  </div>\n</div>"}
+[http] 16:20:01 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:20:01 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:20:01 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:20:01 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:20:01 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:20:02 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:20:02 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:20:02 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:20:02 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:20:03 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:20:03 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:20:03 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:20:03 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:20:36 | サーバの起動が完了しました。
+[http] 16:21:39 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:21:39 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:21:39 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:21:40 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:21:40 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:21:40 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:21:40 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 16:21:40 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:21:40 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:21:41 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:21:41 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:21:41 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:21:41 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:23:47 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 16:23:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:25:33 | [システム管理者]Le Diep PUT /api/cms/page/9 body:{"body":{"cc94sqa5b9yn6":"<div data-editable=\"cc94sqa5b9yn6\">\n  <div data-block=\"row\">\n    <div data-block=\"cell\" style=\"flex-basis:100%\"></div>\n  </div>\n</div>"},"subOwner":[],"style":"body {\n  background:#aaa;\n}","script":""}
+[info] 16:25:33 | [システム管理者]Le Diep | PUT /9 | page: homeを編集が成功しました
+[http] 16:25:33 | [システム管理者]Le Diep GET /api/cms/page/9 body:{}
+[info] 16:25:33 | [システム管理者]Le Diep | GET /9 | get one success
+[http] 16:25:51 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:25:51 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:25:51 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:25:51 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:25:51 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:25:52 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:25:52 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 16:25:52 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:25:52 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:25:52 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:25:52 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:25:53 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:25:53 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:34:15 | [システム管理者]Le Diep PUT /api/cms/page/9 body:{"body":{"cc94sqa5b9yn6":"<div data-editable=\"cc94sqa5b9yn6\">\n  <div data-block=\"row\">\n    <div data-block=\"cell\" style=\"flex-basis:100%\"></div>\n  </div>\n</div>"},"subOwner":[],"style":"body {\n  background:#aaa;\n}\np {\n  color:red;\n}","script":""}
+[info] 16:34:15 | [システム管理者]Le Diep | PUT /9 | page: homeを編集が成功しました
+[http] 16:34:15 | [システム管理者]Le Diep GET /api/cms/page/9 body:{}
+[info] 16:34:15 | [システム管理者]Le Diep | GET /9 | get one success
+[http] 16:36:50 | [システム管理者]Le Diep PUT /api/cms/page/9 body:{"body":{"cc94sqa5b9yn6":"<div data-editable=\"cc94sqa5b9yn6\">\n  <div data-block=\"row\">\n    <div data-block=\"cell\" style=\"flex-basis:100%\"><div data-type=\"text\" style=\"display: block;\"><p data-type=\"child-text\">dfghbjnmk</p></div></div>\n  </div>\n</div>"},"subOwner":[],"style":"body {\n  background:#aaa;\n}\np {\n  color:red;\n}","script":""}
+[info] 16:36:50 | [システム管理者]Le Diep | PUT /9 | page: homeを編集が成功しました
+[http] 16:36:50 | [システム管理者]Le Diep GET /api/cms/page/9 body:{}
+[info] 16:36:50 | [システム管理者]Le Diep | GET /9 | get one success
+[http] 16:37:44 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:37:44 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:37:44 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:37:44 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:37:44 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:37:45 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:37:45 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 16:37:45 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:37:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:37:45 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:37:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:37:45 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:37:45 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:38:55 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:38:55 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:38:55 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:38:55 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:38:55 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:38:56 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:38:56 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 16:38:56 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:38:56 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:38:57 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:38:57 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:38:57 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:38:57 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:39:15 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:39:15 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:39:15 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:39:15 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:39:15 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:39:16 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:39:16 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 16:39:16 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:39:16 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:39:16 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:39:16 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:39:16 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:39:16 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:41:33 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:41:33 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:41:33 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:41:33 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:41:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:41:34 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:41:34 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 16:41:34 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:41:34 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:41:34 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:41:34 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:41:34 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:41:34 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:43:27 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:43:27 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:43:27 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:43:27 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:43:27 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:43:28 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[info] 16:43:28 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:43:28 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 16:43:28 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:43:28 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:43:28 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:43:29 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:43:29 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:48:08 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:48:08 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:48:08 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:48:08 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:48:08 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:48:09 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:48:09 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 16:48:09 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:48:09 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:48:09 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:48:09 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:48:09 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:48:09 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:49:43 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:49:43 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:49:43 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:49:43 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:49:43 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:49:44 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:49:44 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 16:49:44 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:49:44 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:49:44 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:49:44 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:49:44 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:49:44 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:51:32 | [システム管理者]Le Diep GET /auth body:{}
+[http] 16:51:32 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 16:51:32 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 16:51:32 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 16:51:32 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:51:33 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 16:51:33 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 16:51:33 | [システム管理者]Le Diep | GET / | get all success
+[info] 16:51:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:51:33 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 16:51:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 16:51:33 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 16:51:33 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:11:04 | [システム管理者]Le Diep GET /auth body:{}
+[http] 17:11:04 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 17:11:04 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 17:11:04 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:11:04 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:11:05 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[info] 17:11:05 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:11:05 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 17:11:05 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:11:05 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 17:11:05 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:11:05 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 17:11:05 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:12:52 | [システム管理者]Le Diep PUT /api/cms/page/9 body:{"body":{"cc94sqa5b9yn6":"<div data-editable=\"cc94sqa5b9yn6\">\n  <div data-block=\"row\">\n    <div data-block=\"cell\" style=\"flex-basis:100%\">\n      <div data-type=\"text\" style=\"display: block;\">\n        <p data-type=\"child-text\">dfghbjnmk</p>\n      </div>\n    </div>\n  </div>\n</div>"},"subOwner":[],"style":"body {\n  background:#aaa;\n}\np {\n  color:red;\n}","script":""}
+[info] 17:12:52 | [システム管理者]Le Diep | PUT /9 | page: homeを編集が成功しました
+[http] 17:12:52 | [システム管理者]Le Diep GET /api/cms/page/9 body:{}
+[info] 17:12:52 | [システム管理者]Le Diep | GET /9 | get one success
+[http] 17:13:44 | [システム管理者]Le Diep PUT /api/cms/page/9 body:{"body":{"cc94sqa5b9yn6":"<div data-editable=\"cc94sqa5b9yn6\">\n  <div data-block=\"row\">\n    <div data-block=\"cell\" style=\"flex-basis:100%\">\n      <div data-type=\"text\" style=\"display: block;\">\n        <p data-type=\"child-text\" class=\"focus\">dfghbjnmk</p>\n      </div>\n    </div>\n    <div data-block=\"context-menu\" style=\"width: 200px; height: max-content; top: 34.9844px; left: 250.641px;\">\n      <div class=\"current-text-btn\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path fill=\"none\" d=\"M0 0h24v24H0z\"></path>\n          <path d=\"M4 9h16v2H4V9zm0 4h10v2H4v-2z\"></path>\n        </svg><span>テキスト編集</span></div>\n      <div class=\"parent-text-btn\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M5 3a2 2 0 0 0-2 2\"></path>\n          <path d=\"M19 3a2 2 0 0 1 2 2\"></path>\n          <path d=\"M21 19a2 2 0 0 1-2 2\"></path>\n          <path d=\"M5 21a2 2 0 0 1-2-2\"></path>\n          <path d=\"M9 3h1\"></path>\n          <path d=\"M9 21h1\"></path>\n          <path d=\"M14 3h1\"></path>\n          <path d=\"M14 21h1\"></path>\n          <path d=\"M3 9v1\"></path>\n          <path d=\"M21 9v1\"></path>\n          <path d=\"M3 14v1\"></path>\n          <path d=\"M21 14v1\"></path>\n          <line x1=\"7\" x2=\"15\" y1=\"8\" y2=\"8\"></line>\n          <line x1=\"7\" x2=\"17\" y1=\"12\" y2=\"12\"></line>\n          <line x1=\"7\" x2=\"13\" y1=\"16\" y2=\"16\"></line>\n        </svg><span>親テキスト編集</span></div>\n      <div class=\"spacing-btn\"><svg stroke=\"currentColor\" fill=\"none\" stroke-width=\"2\" viewBox=\"0 0 24 24\" stroke-linecap=\"round\" stroke-linejoin=\"round\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"></path>\n          <path d=\"M8 8h8v8h-8z\"></path>\n          <path d=\"M4 4v.01\"></path>\n          <path d=\"M8 4v.01\"></path>\n          <path d=\"M12 4v.01\"></path>\n          <path d=\"M16 4v.01\"></path>\n          <path d=\"M20 4v.01\"></path>\n          <path d=\"M4 20v.01\"></path>\n          <path d=\"M8 20v.01\"></path>\n          <path d=\"M12 20v.01\"></path>\n          <path d=\"M16 20v.01\"></path>\n          <path d=\"M20 20v.01\"></path>\n          <path d=\"M20 16v.01\"></path>\n          <path d=\"M20 12v.01\"></path>\n          <path d=\"M20 8v.01\"></path>\n          <path d=\"M4 16v.01\"></path>\n          <path d=\"M4 12v.01\"></path>\n          <path d=\"M4 8v.01\"></path>\n        </svg><span>余白設定</span></div>\n      <div class=\"bg-img-btn\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 256 256\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M72,112h72v72H72ZM224,48V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48ZM96,72a8,8,0,0,0,16,0h16a8,8,0,0,0,0-16H112A16,16,0,0,0,96,72Zm64,40a16,16,0,0,0-16-16H72a16,16,0,0,0-16,16v72a16,16,0,0,0,16,16h72a16,16,0,0,0,16-16Zm40,16a8,8,0,0,0-16,0v16a8,8,0,0,0,0,16,16,16,0,0,0,16-16Zm0-56a16,16,0,0,0-16-16H168a8,8,0,0,0,0,16h16V88a8,8,0,0,0,16,0Z\"></path>\n        </svg><span>背景設定</span></div>\n      <div class=\"delete-btn\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\">\n          <path d=\"M7 4V2H17V4H22V6H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V6H2V4H7ZM6 6V20H18V6H6ZM9 9H11V17H9V9ZM13 9H15V17H13V9Z\"></path>\n        </svg><span>削除</span></div>\n    </div>\n    <div data-block=\"remove-context-menu\"></div>\n  </div>\n</div>"},"subOwner":[],"style":"body {\n  background:#aaa;\n}\np {\n  color:red;\n}","script":""}
+[info] 17:13:44 | [システム管理者]Le Diep | PUT /9 | page: homeを編集が成功しました
+[http] 17:13:44 | [システム管理者]Le Diep GET /api/cms/page/9 body:{}
+[info] 17:13:44 | [システム管理者]Le Diep | GET /9 | get one success
+[http] 17:14:17 | [システム管理者]Le Diep GET /api/config body:{}
+[http] 17:14:17 | [システム管理者]Le Diep GET /auth body:{}
+[info] 17:14:17 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 17:14:17 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:14:17 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:14:18 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[http] 17:14:18 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[info] 17:14:18 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:14:18 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:14:18 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 17:14:18 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:14:18 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 17:14:18 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:16:07 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[info] 17:16:07 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:17:18 | [システム管理者]Le Diep GET /auth body:{}
+[http] 17:17:18 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 17:17:18 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 17:18:30 | [システム管理者]Le Diep GET /auth body:{}
+[http] 17:18:30 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 17:18:30 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[info] 17:34:00 | サーバの起動が完了しました。
+[info] 17:35:20 | サーバの起動が完了しました。
+[http] 17:38:07 | [システム管理者]Le Diep GET /auth body:{}
+[http] 17:38:07 | [システム管理者]Le Diep GET /api/config body:{}
+[info] 17:38:07 | [システム管理者]Le Diep | GET / | システム設定環境変数を取得できました
+[http] 17:38:07 | [システム管理者]Le Diep GET /api/cms/web body:{}
+[info] 17:38:07 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:39:45 | サーバの起動が完了しました。
+[http] 17:46:47 | [システム管理者]Le Diep GET /api/cms/page body:{}
+[http] 17:46:47 | [システム管理者]Le Diep GET /api/cms/template body:{}
+[http] 17:46:47 | [システム管理者]Le Diep GET /api/domain body:{}
+[info] 17:46:47 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:46:47 | [システム管理者]Le Diep | GET / | get all success
+[info] 17:46:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:46:47 | [システム管理者]Le Diep GET /api/group body:{}
+[info] 17:46:47 | [システム管理者]Le Diep | GET / | get all success
+[http] 17:46:48 | [システム管理者]Le Diep GET /api/cms/theme body:{}
+[info] 17:46:48 | [システム管理者]Le Diep | GET / | get all success
